@@ -1,0 +1,556 @@
+CMPSC 1113  01|brarapa|Apala, Brandon Robert|214784|0352|    
+CMPSC 1113  01|aleawa|Awale, Alex|222213|0510|    
+CMPSC 1113  01|brilbig|Bigelow, Brian Lee|208472|0075|0352
+CMPSC 1113  01|johrbro|Brown, John Richard|222500|0510|    
+CMPSC 1113  01|krikcla|Clarke, Kristine Kathyrn|210361|0040|    
+CMPSC 1113  01|lamtdin|Dinh, Lam Tung|208362|0510|    
+CMPSC 1113  01|katdgra|Gragg, Kathryn Daun|218968|0510|    
+CMPSC 1113  01|ricdhal|Hall, Richard David|215019|0292|    
+CMPSC 1113  01|cladhen|Henry, Clayton Dee|215669|0352|    
+CMPSC 1113  01|vanrhil|Hilton, Vanessa Renee_Alexandra|222361|0353|    
+CMPSC 1113  01|xiahua|Huang, Xiaolin|214481|0075|    
+CMPSC 1113  01|gerajoh|Johnson, Gerrard Antonio|217135|0510|    
+CMPSC 1113  01|keskar|Karki, Keshav|221156|0350|    
+CMPSC 1113  01|jelkim|Kimaiyo, Jelagat|207586|0510|    
+CMPSC 1113  01|reiakin|Kinder, Reid A.|215584|0350|    
+CMPSC 1113  01|saitmag|Magar, Sailesh Thapa|221225|0510|    
+CMPSC 1113  01|bibman|Manandhar, Bibek|222442|0510|    
+CMPSC 1113  01|codsmer|Mercer, Cody Shane|206733|0100|    
+CMPSC 1113  01|wadamil|Miller, Wade A|222364|0510|    
+CMPSC 1113  01|caldmos|Moss, Caleb Dakota|220766|0510|    
+CMPSC 1113  01|hmount|Mount, Houston Faust|190262|0480|    
+CMPSC 1113  01|poopok|Pokharel, Poojan|222317|0510|    
+CMPSC 1113  01|sumpok|Pokharel, Sumanshu|220991|0510|    
+CMPSC 1113  01|evabpoo|Pool, Evan Blake|216970|0481|    
+CMPSC 1113  01|bibrij|Rijal, Bibek|228358|0510|    
+CMPSC 1113  01|ashmryc|Rycroft, Ashton Montana|209999|0350|    
+CMPSC 1113  01|sebosab|Sabisch, Sebastian Otto|222304|0510|    
+CMPSC 1113  01|sanksah|Sah, Sanjay Kumar|221926|0510|    
+CMPSC 1113  01|pawsha1|Sharma, Pawan|221121|0510|    
+CMPSC 1113  01|jawshr|Shrestha, Jawa|222584|0510|    
+CMPSC 1113  01|andlsmi3|Smith, Andrew Lane|222004|0510|    
+CMPSC 1113  01|samaswe|Sweetman, Sam Anthony|221946|0510|    
+CMPSC 1113  01|hayaswo|Swope, Hayden Andrew|222473|0510|    
+CMPSC 1113  01|noetam|Tamang, Noel|219360|0510|    
+CMPSC 1113  01|gaubtam|Tamrakar, Gaurav Bir_Singh|223112|0510|    
+CMPSC 1113  01|zanhter|Ter Wee, Zane Hamlin|214365|0371|0076
+CMPSC 1113  01|mictod|Todd, Michael|222224|0510|    
+CMPSC 1113  01|stetou|Touchstone, Steven G|169307|0510|    
+CMPSC 1113  01|garmwat|Watkins, Garyn McDonald|227756|0510|    
+CMPSC 1113  01|codweb|Webb, Cody|219223|0510|    
+CMPSC 1113  01|tylwwil|Wilkins, Tyler Wade|221507|0510|    
+CMPSC 1113  01|aarmyou|Young, Aaron Michael|222705|0293|    
+CMPSC 1113  02|budband|Andrews, Buddy Briten|220782|0510|    
+CMPSC 1113  02|anwmbai|Baisyat, Anwesh Man|222930|0510|    
+CMPSC 1113  02|bisban|Baniya, Bishal|222206|0510|    
+CMPSC 1113  02|dylebat|Batungbacal, Dylan Edward|227830|0510|    
+CMPSC 1113  02|trecber|Berg, Trevor Cole|217069|0350|    
+CMPSC 1113  02|ashbha|Bhandari, Ashish|222563|0510|    
+CMPSC 1113  02|ambrbou|Bounds, Amber Rachelle|216106|0480|    
+CMPSC 1113  02|kriacas|Castellanos, Kristian Alexander|210200|0353|    
+CMPSC 1113  02|jusmcol|Colbert, Justus Michael|209685|0510|    
+CMPSC 1113  02|brelcra|Crawford, Breecia Leeanne|215585|0600|0350
+CMPSC 1113  02|danccre|Creech, Daniel Colin|221663|0350|    
+CMPSC 1113  02|sagkdar|Darnal, Sagar Kumar|222424|0510|    
+CMPSC 1113  02|stamdem|Demings, Starla Marie|222836|0294|    
+CMPSC 1113  02|coddfra|Franks, Cody Dewayne|221749|0480|    
+CMPSC 1113  02|chrbhen|Henry, Christopher Bouine|219604|0350|    
+CMPSC 1113  02|ginrjoh2|Johnson, Ginger Rachelle|222378|0292|    
+CMPSC 1113  02|mankha3|Khadka, Manoj|223164|0510|    
+CMPSC 1113  02|gardkno|Knoles, Garey D|220562|0480|    
+CMPSC 1113  02|kenalar|Larsh, Kenneth Alan|220035|0352|    
+CMPSC 1113  02|derslin|Linthicum, Derek Scott|226112|0510|    
+CMPSC 1113  02|briclof|Lofton, Britany Cheyenne|222096|0130|    
+CMPSC 1113  02|skyclof|Lofton, Skylar Chance|218752|0510|    
+CMPSC 1113  02|avelog|Logan, Avery|223303|0510|    
+CMPSC 1113  02|samlui|Luitel, Samir|221144|0510|    
+CMPSC 1113  02|sabmad|Madhikarmi, Sabin|222802|0510|    
+CMPSC 1113  02|mordmcd|McDaniel, Morgan D'Nell|220881|0510|    
+CMPSC 1113  02|samneu|Neupane, Samita|222974|0510|    
+CMPSC 1113  02|ashmpag|Page, Ashli M|222469|0510|    
+CMPSC 1113  02|rompan|Pandey, Romie|222209|0510|    
+CMPSC 1113  02|bibpok|Pokharel, Bibek|222901|0510|    
+CMPSC 1113  02|sagpok2|Pokhrel, Sagaurav|221747|0510|    
+CMPSC 1113  02|sarpou|Poudel, Sarad|223173|0510|    
+CMPSC 1113  02|sanpra|Pradhan, Santosh|221757|0510|    
+CMPSC 1113  02|natbpul|Pulliam, Nathaniel B|228000|0350|    
+CMPSC 1113  02|jocarod|Rodriguez, Jocelyn Amayrani|227983|0510|    
+CMPSC 1113  02|dylssan|Sanchez, Dylan Steve|219647|0510|    
+CMPSC 1113  02|jigrshe|Sherpa, Jigme Rinji|223106|0510|    
+CMPSC 1113  02|sonshe|Sherpa, Sonam_Norke|222271|0510|    
+CMPSC 1113  02|valtshi|Shitang, Valentine Tancho|221469|0510|    
+CMPSC 1113  02|domlsim|Simonson, Dominick Lee|215181|0494|    
+CMPSC 1113  02|zaclsim|Simpson, Zachariah Lucas|221669|0480|    
+CMPSC 1113  02|tanlsmi1|Smith, Tanner Lee|221825|0510|    
+CMPSC 1113  02|calesta|Stallcup, Caleb Evan|220781|0352|    
+CMPSC 1113  02|bradstr|Stricker, Braydon D|217696|0100|    
+CMPSC 1113  02|bidsub|Subedi, Bidhan|222955|0510|    
+CMPSC 1113  03|bijach|Acharya, Bijay|222446|0510|    
+CMPSC 1113  03|shiach|Acharya, Shishir|222077|0510|    
+CMPSC 1113  03|bigadh|Adhikari, Bigyan|222088|0510|    
+CMPSC 1113  03|rakadh|Adhikari, Rakshyak|222633|0510|    
+CMPSC 1113  03|sadadh|Adhikari, Sadikshya|221599|0510|    
+CMPSC 1113  03|ujiadh|Adhikari, Ujit|222590|0510|    
+CMPSC 1113  03|ankary|Aryal, Ankit|221286|0510|    
+CMPSC 1113  03|sakbaj|Bajagain, Sakar|222443|0510|    
+CMPSC 1113  03|roscha|Chand, Roshan|222811|0510|    
+CMPSC 1113  03|viccha|Chauhan, Victor|221319|0510|    
+CMPSC 1113  03|pracha|Chaurasiya, Pravakar|222400|0510|    
+CMPSC 1113  03|patledw|Edwards, Patric Laroyce|230378|0292|    
+CMPSC 1113  03|latdfor1|Ford, LaTisha Dawn_May|186324|0072|    
+CMPSC 1113  03|kargha|Ghale, Karma_Namgyal|222018|0510|    
+CMPSC 1113  03|asighi|Ghimire, Asish|222623|0510|    
+CMPSC 1113  03|krigir|Giree, Kritika|222071|0510|    
+CMPSC 1113  03|kamgir|Giri, Kamal|221315|0510|    
+CMPSC 1113  03|rajgup|Gupta, Rajan|223083|0352|    
+CMPSC 1113  03|sungup1|Gupta, Sunny|223084|0510|    
+CMPSC 1113  03|chagur|Gurung, Chandan|223085|0510|    
+CMPSC 1113  03|riwgya|Gyawali, Riwaz|222085|0510|    
+CMPSC 1113  03|dhiham|Hamal, Dhirendra|222741|0510|    
+CMPSC 1113  03|krikaf|Kafle, Kritartha|222579|0510|    
+CMPSC 1113  03|madkaf|Kafle, Madan|222068|0510|    
+CMPSC 1113  03|mukkaf|Kafle, Mukesh|222599|0510|    
+CMPSC 1113  03|prakaf|Kafle, Prakash|222116|0510|    
+CMPSC 1113  03|sadkar|Karki, Sadikchya|222397|0510|    
+CMPSC 1113  03|prakha1|Khadka, Pranisha|221970|0510|    
+CMPSC 1113  03|sankha2|Khanal, Sandesh|221741|0510|    
+CMPSC 1113  03|simlam|Lama, Simrika|222886|0510|    
+CMPSC 1113  03|sudlam|Lamichhane, Sudip|222951|0510|    
+CMPSC 1113  03|ashlui|Luitel, Ashik|221759|0510|    
+CMPSC 1113  03|deemah|Maharjan, Deebika|223169|0510|    
+CMPSC 1113  03|baycmas|Mason, Bayley Cheyenne|230377|0510|    
+CMPSC 1113  03|ashnep|Nepal, Ashim|221318|0510|    
+CMPSC 1113  03|rajneu|Neupane, Rajeev|221967|0510|    
+CMPSC 1113  03|hempan|Pant, Hemanta|222120|0510|    
+CMPSC 1113  03|rabpan|Pant, Rabin|221964|0510|    
+CMPSC 1113  03|dylmpee|Peet, Dylan Mychal|215861|0510|    
+CMPSC 1113  03|rubpha|Phaiju, Rubesh|222906|0510|    
+CMPSC 1113  03|chaphu|Phuyal, Chandra B|223101|0510|    
+CMPSC 1113  03|anipok|Pokharel, Anish|222082|0510|    
+CMPSC 1113  03|ayurai|Rai, Ayub|222916|0510|    
+CMPSC 1113  03|aryrij|Rijal, Aryan|228287|0510|    
+CMPSC 1113  03|sarsan|Sanjel, Sarina|222114|0510|    
+CMPSC 1113  03|mahsap|Sapkota, Mahesh|222624|0510|    
+CMPSC 1113  03|rajsha1|Sharma, Rajan|222060|0510|    
+CMPSC 1113  03|passhe|Sherpa, Pasang|223217|0510|    
+CMPSC 1113  03|lukshr|Shrestha, Lukash|223195|0510|    
+CMPSC 1113  03|rebshr|Shrestha, Rebecca|222755|0510|    
+CMPSC 1113  03|sahshr|Shrestha, Sahaj|222079|0510|    
+CMPSC 1113  03|susshr|Shrestha, Susongsha|221748|0510|    
+CMPSC 1113  03|kelcsla|Slaughter, Kelton C|209802|0480|    
+CMPSC 1113  03|zacksmi|Smith, Zachery Kane|214568|0510|    
+CMPSC 1113  03|setnsta|States, Seth Neil|219526|0072|    
+CMPSC 1113  03|achsub|Subedi, Achyut|222636|0510|    
+CMPSC 1113  03|guntha|Thapa, Gunjan|222591|0510|    
+CMPSC 1113  03|jestul|Tuladhar, Jesphar|223005|0510|    
+CMPSC 1113  03|garbwho|Whorton, Garrett B|222879|0480|    
+CMPSC 1133  01|bilwand|Andrew, Billy W|222346|0352|    
+CMPSC 1133  01|rojlari|Arinze, Rojay Luke|211861|0510|    
+CMPSC 1133  01|matsbai|Bailey, Matthew Scott|174869|0510|    
+CMPSC 1133  01|garhbro|Brooks, Gary Hollin|216647|0510|    
+CMPSC 1133  01|roblcle|Clemmer, Robert Lee|223191|0510|    
+CMPSC 1133  01|kaljclo|Cloutier, Kali Janae|201942|0510|    
+CMPSC 1133  01|kevadam|Dampf, Kevin Allen|218933|0510|    
+CMPSC 1133  01|aaldul|Dulal, Aalap|220301|0510|    
+CMPSC 1133  01|pusnkad|Kadariya, Puspa_Nath|219578|0510|    
+CMPSC 1133  01|ashlkee1|Keenan, Ashley Lynn|197712|0510|    
+CMPSC 1133  01|jesaler|Lerma, Jesus Arturo|216968|0510|    
+CMPSC 1133  01|johglyl|Lyle, Johnathan G.|207906|0510|    
+CMPSC 1133  01|alimah1|Maharjan, Alice|221591|0510|    
+CMPSC 1133  01|jimdmar1|Marsh, Jimmy Dustin|214804|0480|    
+CMPSC 1133  01|anakmen|Mendez-Cuenca, Ana Karen|211591|0292|    
+CMPSC 1133  01|fradmil|Miller, Frank Daniel|218631|0510|    
+CMPSC 1133  01|idamnic|Nicks, Ida Marie|216411|0510|    
+CMPSC 1133  01|davlpal1|Palmer, David L.C.|218041|0510|    
+CMPSC 1133  01|sagpok1|Pokhrel, Sagar|221166|0510|    
+CMPSC 1133  01|prapou|Poudel, Pradip|219949|0510|    
+CMPSC 1133  01|jarlsel|Self, Jared Levi|221327|0510|    
+CMPSC 1133  01|yubtam|Tamang, Yubraj|219483|0510|    
+CMPSC 1133  01|niltam|Tamrakar, Nilesh|221183|0510|    
+CMPSC 1133  01|rabtha|Thapaliya, Rabindra|221294|0510|    
+CMPSC 1133  01|samtul|Tuladhar, Sampurna_Man|221505|0510|    
+CMPSC 1133  01|horjvan1|Van Horn, Justin P.|122180|0510|    
+CMPSC 1133  01|samrwag|Wagle, Samartha Raj|221460|0510|    
+CMPSC 1133  01|emigwil|Williams, Emily Grace|209931|0480|    
+CMPSC 1513  01|ledtale|Alexander, Ledon T.|129776|0590|    
+CMPSC 1513  01|chawbak|Baker, Chad Wayne|228448|0371|    
+CMPSC 1513  01|keatbel|Bell, Keaton Thomas|219912|0580|    
+CMPSC 1513  01|amadber|Berryman, Amanda Dean|222449|0550|    
+CMPSC 1513  01|derdbla|Black, Derill D|228186|0267|    
+CMPSC 1513  01|mirebla|Black, Miracle Elexia_Anne|227613|0410|    
+CMPSC 1513  01|katrbra|Brawner, Katie Rose|222682|0340|    
+CMPSC 1513  01|haymbur|Burton, Haylea Michelle|215984|0340|    
+CMPSC 1513  01|colccra|Crawford, Coleman Christian|218984|0202|    
+CMPSC 1513  01|rearfla|Flanary, Reagan Reid|219028|0100|    
+CMPSC 1513  01|almpgil|Gilbuena, Almira Patricia_Lopez|215909|0340|    
+CMPSC 1513  01|brishea|Hearrell, Brittany Shea|221700|0340|    
+CMPSC 1513  01|logshis|Hisaw, Logan S|221556|0340|    
+CMPSC 1513  01|ambljoh|Johnson, Amber Leigh|228475|0160|    
+CMPSC 1513  01|quaajoh|Johnson, Quaid Austin|217672|0371|    
+CMPSC 1513  01|hanekio|Kiosterud, Hannah Elisabeth|221273|0040|    
+CMPSC 1513  01|donjkuy|Kuykendall, Donovan J|212027|0221|    
+CMPSC 1513  01|sopjlan|Landers, Sophia Jade_Solinu'utup|215572|0340|    
+CMPSC 1513  01|skymlet|Letterman, Skylar M|222852|0340|    
+CMPSC 1513  01|marjlyl|Lyle, Marlee Jo|230351|0047|    
+CMPSC 1513  01|tylrmil|Miller, Tyler Ross|216381|0202|    
+CMPSC 1513  01|davmmoy|Moyer, David Michael|222003|0160|    
+CMPSC 1513  01|macamye|Myers, Macall Anneice|222058|0340|    
+CMPSC 1513  01|adaanat|Nathan, Adaku Abigail|222720|0340|    
+CMPSC 1513  01|camanun|Nuner, Camron A|228073|0040|    
+CMPSC 1513  01|adrppar|Parker, Adrianna Paige|221625|0340|    
+CMPSC 1513  01|andmpet|Peters, Andrew Michael|221916|0340|    
+CMPSC 1513  01|treeree|Reed, Trevor Eugene|216559|0102|    
+CMPSC 1513  01|katjsam|Sampson, Katelin Jane|216315|0040|    
+CMPSC 1513  01|alimsel|Selvy, Ali M|222029|0045|    
+CMPSC 1513  01|meesig|Sigdel, Meena|223109|0340|    
+CMPSC 1513  01|josdsim|Sims, Joseph Drew|219488|0340|    
+CMPSC 1513  01|hayltur|Turner, Hayward L,, III|227278|0341|    
+CMPSC 1513  01|jaydwah|Wahlquist, Jayla Dawn|225834|0523|    
+CMPSC 1513  01|amidwar|Warren, Amisha Dianne|222702|0371|    
+CMPSC 1513  01|nangwes|Westmoland, Nana Genan|217613|0040|    
+CMPSC 1513  01|kasawhi|White, Kassidy Ann|216431|0410|    
+CMPSC 1513  01|sydewhi|Whitson, Sydney Elise|217832|0040|    
+CMPSC 1513  01|kirmyan|Yancey, Kirsten Mae|221578|0049|    
+CMPSC 1513  01|jambyou|Young, Jamil Brian|219121|0045|    
+CMPSC 1513  02|alenada|Adams, Alexandria Nicole|216850|0045|    
+CMPSC 1513  02|corard|Ardrey, Corey|210994|0040|    
+CMPSC 1513  02|jacgbir|Birdshead, Jacob Gene|218552|0040|    
+CMPSC 1513  02|marsbla1|Black, Markeisha Simone|214853|0202|    
+CMPSC 1513  02|kiencha|Chandler, Kierra Nicole|218592|0371|    
+CMPSC 1513  02|kylrdav1|Davies, Kyle Ryan|200444|0049|    
+CMPSC 1513  02|ashrdav|Davis, Ashley Renee|227715|0202|    
+CMPSC 1513  02|kernday|Day, Kerra Nicole|222522|0040|    
+CMPSC 1513  02|nikedee|Deering, Nikki E.|211864|0046|    
+CMPSC 1513  02|graldun|Duncan, Grant Lewis|218239|0202|    
+CMPSC 1513  02|sabdun|Dunn, Sabrina De'Shay|225845|0340|    
+CMPSC 1513  02|colrell|Ellis, Cole Ryan|217922|0160|    
+CMPSC 1513  02|wyapgal|Galante, Wyatt Parker|220487|0580|    
+CMPSC 1513  02|kolrgre|Green, Kolby R|222689|0340|    
+CMPSC 1513  02|johlgri|Grimes, John-Christopher Levi|220889|0340|    
+CMPSC 1513  02|ricgue|Guerra, Ricardo,, Jr.|226399|0340|    
+CMPSC 1513  02|benwhof|Hoffman, Benjamin W|218167|0523|    
+CMPSC 1513  02|mckehud|Hudson, McKenzie Evelyn|211928|0202|    
+CMPSC 1513  02|ashdhuf|Huffman, Ashlynd Dynaria|221400|0494|    
+CMPSC 1513  02|pairkee|Kees, Paige Rebecca|221810|0040|    
+CMPSC 1513  02|aubalev|Leveling, Aubrey Alexandra|221581|0580|    
+CMPSC 1513  02|salmah|Maharjan, Salina|223096|0340|    
+CMPSC 1513  02|solmah|Mahlatini, Solomon|227950|0020|    
+CMPSC 1513  02|mactmar|Marrs, Maci Taryn|221710|0550|    
+CMPSC 1513  02|madbmcn|McNeill, Madison Beth|218935|0040|    
+CMPSC 1513  02|robmmil|Millhollon, Robert Michael|217312|0040|    
+CMPSC 1513  02|lynamon|Moncur, Lynia Alexia|218999|0340|    
+CMPSC 1513  02|colwoms|Omstead, Colton Wayne_Fairfax|221860|0160|    
+CMPSC 1513  02|chepott|Ott, Chelsey Paige|223587|0600|    
+CMPSC 1513  02|emmlpar|Parris, Emma Leigh|228451|0340|    
+CMPSC 1513  02|gerjpic|Pickett, Gerald Jermaine|216526|0201|    
+CMPSC 1513  02|joseree|Reed, Josiah E.|216355|0202|    
+CMPSC 1513  02|katmrey|Reynolds, Katelyn Marie|218460|0040|    
+CMPSC 1513  02|torbsta|Stanfield, Tori Brooke|227260|0340|    
+CMPSC 1513  02|krimstr1|Stringfellow, Kristen M|225782|0144|    
+CMPSC 1513  02|chawai|Wainscott, Charley|201718|0481|    
+CMPSC 1513  02|ausgwar|Ward, Austin Garrett|220275|0145|    
+CMPSC 1513  02|haiwel|Wells, Hailey|211110|0340|    
+CMPSC 1513  02|kirnwil|Williams, Kirsten Noelle|219038|0045|    
+CMPSC 1513  02|jusnwil|Williamson, Justin Nathaniel|221687|0340|    
+CMPSC 1513  02|calhwit|Wittman, Calvin Hollis|223012|0040|    
+CMPSC 1513  02|braryor|York, Bradley Ryan|227973|0523|    
+CMPSC 1513  02|markzei|Zeier, Mary Kate|222706|0340|    
+CMPSC 1513  03|tayjaco|Acord, Taylor Jo|222153|0340|    
+CMPSC 1513  03|elllall|Allison, Ellane Leecha|217165|0215|    
+CMPSC 1513  03|shesben1|Benham-Callender, Sheldon Steven|220026|0202|    
+CMPSC 1513  03|jossblo|Bloomstadt, Josiah Scott|213862|0493|    
+CMPSC 1513  03|mencha|Chaudhary, Menuka|221986|0340|    
+CMPSC 1513  03|myaecoo|Cooper, Mya Elen|221861|0220|    
+CMPSC 1513  03|steacra|Crawford, Stephanie Annette|217236|0042|    
+CMPSC 1513  03|catrfie|Fielder, Catherine Rose|217705|0045|    
+CMPSC 1513  03|dakmfis|Fish, Dakota Matthew|214862|0202|    
+CMPSC 1513  03|katmgai|Gaines, Kathryn Michelle|221697|0580|    
+CMPSC 1513  03|koumgra|Grantz, Kourtney Madison|218726|0215|    
+CMPSC 1513  03|matwham|Hamilton, Matthew W.|139864|0371|    
+CMPSC 1513  03|juschar1|Harris, Justin Conda|221695|0049|    
+CMPSC 1513  03|sareher|Herd, Sarah E|222512|0340|    
+CMPSC 1513  03|chabhoa|Hoagland, Chandler Brooke|228436|0074|    
+CMPSC 1513  03|matahol|Holder, Matthew Arthur|227978|0340|    
+CMPSC 1513  03|dianhoo|Hooks, Diamond Nicole|222097|0340|    
+CMPSC 1513  03|olirhut|Hutcheson, Olivia R|222777|0340|    
+CMPSC 1513  03|colrjac|Jack, Cole Robert|216333|0523|    
+CMPSC 1513  03|cadjjoh|Johnson, Caden Jaye|219638|0340|    
+CMPSC 1513  03|ausllen|Lenamond, Austin Lee|209544|0523|    
+CMPSC 1513  03|faillil|Liles, Faith Leighann|222818|0340|    
+CMPSC 1513  03|nobglyb|Lybrand, Noble Gibson|214940|0020|    
+CMPSC 1513  03|brobmac|Macdonald, Brody B|226179|0340|    
+CMPSC 1513  03|marmmah|Maher, Margaret M|222517|0267|    
+CMPSC 1513  03|shedmal|Malone, Sherwin D|214972|0202|    
+CMPSC 1513  03|kamlmas|Massingill, Kameron Lee|218848|0523|    
+CMPSC 1513  03|anakmen|Mendez-Cuenca, Ana Karen|211591|0292|    
+CMPSC 1513  03|kendmor|Morris, Kency DaShon|221859|0042|    
+CMPSC 1513  03|miksmor|Morris, Mikera Shayd|217899|0040|    
+CMPSC 1513  03|sabmur|Murphy, Sabree|210992|0340|    
+CMPSC 1513  03|madgnic|Nickens, Madison Grace|222025|0043|    
+CMPSC 1513  03|mckpos|Posey, McKenzie|221797|0075|    
+CMPSC 1513  03|jesnpul|Pullen, Jessie N|221353|0040|    
+CMPSC 1513  03|jerxsal|Salinas, Jeremy Xavier|217245|0500|    
+CMPSC 1513  03|kasasch|Scheerger, Kasey Adam|211432|0523|    
+CMPSC 1513  03|baishr|Shrestha, Baishali|221390|0340|    
+CMPSC 1513  03|prasig|Sigdel, Prashna|223323|0340|    
+CMPSC 1513  03|racgsno|Snodgrass, Rachel Grace|220943|0340|    
+CMPSC 1513  03|sadtiw|Tiwari, Sadiksha|222459|0040|    
+CMPSC 1513  03|ryafvan|VanBuskirk, Ryan F|226879|0550|    
+CMPSC 1513  03|natvaz|Vazquez, Natania|220208|0046|    
+CMPSC 1513  03|johtwat|Watters, John Tanner|223229|0160|    
+CMPSC 1513  03|wanjwri|Wright, Wanya James|201062|0202|    
+CMPSC 1513  04|jesnaye|Ayer, Jessica N|228039|0340|    
+CMPSC 1513  04|olilbri|Brinlee, Olivia Leigh|221955|0202|    
+CMPSC 1513  04|tarfbro|Brooking, Tariah Faye_Ann|209266|0265|    
+CMPSC 1513  04|devnbro|Brown, Devon Nicole|222684|0040|    
+CMPSC 1513  04|bencbro|Brown-White, Benjamin C|220749|0202|    
+CMPSC 1513  04|coudbru|Brundidge, Courtney Danielle|220202|0340|    
+CMPSC 1513  04|camecam|Campbell, Camnik Eugene|221880|0202|    
+CMPSC 1513  04|nicacan|Cannon, Nichole Ann|217062|0371|    
+CMPSC 1513  04|lizcar|Carreon, Lizette|222185|0202|    
+CMPSC 1513  04|sterchi|Childress, Steven R|221574|0160|    
+CMPSC 1513  04|hadmclo|Clower, Hadley Maysen|222685|0340|    
+CMPSC 1513  04|tylden|Denton, Tyler J|225231|0046|    
+CMPSC 1513  04|jaylhen|Henderson, Jaycie Lauren|217667|0340|    
+CMPSC 1513  04|roushum|Humphers, Roudee Sage|213611|0340|    
+CMPSC 1513  04|sarljen|Jennings, Sarah LaRae|218828|0521|    
+CMPSC 1513  04|jesnjoh|Johnson, Jessica Nicole|208989|0144|    
+CMPSC 1513  04|jonrkuy|Kuykendall, Jonathan Ray|218974|0481|    
+CMPSC 1513  04|cladlan|Lancaster, Clarence Dewayne|219637|0160|    
+CMPSC 1513  04|jazrlon|Long, Jazper Ray|209623|0523|    
+CMPSC 1513  04|krimah|Maharjan, Kristi|220149|0022|    
+CMPSC 1513  04|tordmar|Martin, Tori D|217192|0600|    
+CMPSC 1513  04|casmcc|McCall, Cassandra|218953|0043|    
+CMPSC 1513  04|harmmcd|McDonald, Harleigh Marie|222425|0371|    
+CMPSC 1513  04|kenjmor1|Morris, Kenneth Jackie,, Sr.|228132|0580|    
+CMPSC 1513  04|brospar|Parker, Brooklyn Skye|222839|0580|    
+CMPSC 1513  04|nirpra|Prajapati, Niru|222125|0040|    
+CMPSC 1513  04|ashdrin|Rinner, Ashley D.|211898|0371|    
+CMPSC 1513  04|ritshr|Shrestha, Ritu|221173|0340|    
+CMPSC 1513  04|shensmi|Smith, Shelby N|222697|0340|    
+CMPSC 1513  04|julasti|Stizza, Julia Ann|222198|0335|    
+CMPSC 1513  04|coodsul|Sullivan, Cooper Derek|209450|0410|    
+CMPSC 1513  04|hayaswo|Swope, Hayden Andrew|222473|0510|    
+CMPSC 1513  04|savthr|Throneberry, Savannah Lynn|221635|0202|    
+CMPSC 1513  04|ambntig|Tiger, Amber Nicole|212965|0202|    
+CMPSC 1513  04|emibtom|Tomlinson, Emilee B|221863|0267|    
+CMPSC 1513  04|tabrweb|Webb, Tabatha R.|178755|0340|    
+CMPSC 1513  04|alidwhi|White, Alissa Dawn|219674|0040|    
+CMPSC 1513  04|vaknwil|Wilford, Vakayla Nicole|218227|0523|    
+CMPSC 1513  04|bromwil1|Williams, Brooke M|221271|0340|    
+CMPSC 1513  04|dwadwri|Wright, Dwanae Detra|223115|0040|    
+CMPSC 1513  05|racibak|Baker, Rachel Irene|190235|0041|    
+CMPSC 1513  05|tylrbax|Baxter, Tyler Ryan|212036|0220|    
+CMPSC 1513  05|brolbis|Bishop, Brooke Lea|215870|0493|    
+CMPSC 1513  05|krygboh|Bohanon, Krystal Gayle|220467|0500|    
+CMPSC 1513  05|brimbra|Bragg, Brianna M|217299|0010|    
+CMPSC 1513  05|micebry|Bryant, Micah Elizabeth|220695|0202|    
+CMPSC 1513  05|jaydcar1|Carpenter, Jayla D'Naye_Jane|214485|0040|    
+CMPSC 1513  05|haiddry|Drylie, Hailey Dawn_llene|217952|0040|    
+CMPSC 1513  05|andldun|Duncan, Andrew Lee|219376|0040|    
+CMPSC 1513  05|juseede|Eden, Justyne Elizabeth|218246|0022|    
+CMPSC 1513  05|amereng|Engel, Amelia Rose|211507|0144|    
+CMPSC 1513  05|madlfee|Feezel, Madison Lauren|230506|0580|    
+CMPSC 1513  05|jorrfor|Fortner, Jordyn Reid|211766|0440|    
+CMPSC 1513  05|jenmgil1|Gilbert, Jenna Marie|218145|0521|    
+CMPSC 1513  05|broegun|Gunter, Brooklyn Elizabeth|222504|0042|    
+CMPSC 1513  05|ambsham|Hampton, Amber Star|209923|0265|    
+CMPSC 1513  05|danhay|Haynes, Danielle|206325|0560|    
+CMPSC 1513  05|sebajur|Juristy, Sebien Alizasu|203157|0265|    
+CMPSC 1513  05|binkha2|Khadka, Binita|220102|0340|    
+CMPSC 1513  05|jacrlau|Laughlin, Jace Rylee|220865|0340|    
+CMPSC 1513  05|rumalej|LeJeune, Rumor Ann|229361|0580|    
+CMPSC 1513  05|thowlea|Leach, Thomas William,, II|228473|0265|    
+CMPSC 1513  05|madlluc|Lucas, Madysen Leigh|217965|0580|    
+CMPSC 1513  05|stamor|Morgan, Stacey|203155|0340|    
+CMPSC 1513  05|dapmpat|Patrom, Daphnee Marie|220907|0040|    
+CMPSC 1513  05|zactper|Perez, Zachary Thomas|219047|0265|    
+CMPSC 1513  05|elicred|Redman, Elizabeth Caroline|215621|0040|    
+CMPSC 1513  05|morrrey|Reynolds, Morgan Rae_Lynn|228547|0340|    
+CMPSC 1513  05|halrob|Robertson, Haley|208469|0100|004A
+CMPSC 1513  05|emmerol|Rolin, Emma Elizabeth|209903|0600|    
+CMPSC 1513  05|mahasau|Saunders, Mahogany A.|214704|0265|    
+CMPSC 1513  05|malbsha|Shanahan, Mallory Brooke|216668|0340|    
+CMPSC 1513  05|abbrshe|Sheehy, Abby Rose|214016|0494|    
+CMPSC 1513  05|elzlstr|Streater, Elzbietka Leigh|219230|0144|    
+CMPSC 1513  05|viclstr1|Strobridge, Victoria Lynn|209606|0020|    
+CMPSC 1513  05|jengswa|Swartz, Jennifer Gail|217920|0267|    
+CMPSC 1513  05|dyldtat|Tatum, Dylan Dent|215124|0221|    
+CMPSC 1513  05|azehtri|Trimble, Azella H|222556|0049|    
+CMPSC 1513  05|amaltys|Tyson, Amanda Lee|192840|0590|    
+CMPSC 1513  05|misawes|Westmoreland, Mischelle Angel-Me|212414|0340|    
+CMPSC 1513  05|janawil2|Williams, Jannice Addie|143312|0560|    
+CMPSC 3113  01|chekada|Adams, Chelsea Kayleen|209650|0510|    
+CMPSC 3113  01|kisadh|Adhikari, Kishor|217284|0510|    
+CMPSC 3113  01|hanebar|Barnes, Hannah Elizabeth|213549|0510|    
+CMPSC 3113  01|kirbha|Bhattarai, Kiran|217289|0510|    
+CMPSC 3113  01|haycbla|Blakemore, Hayden Connor|213569|0510|    
+CMPSC 3113  01|ryanbon|Bond, Ryan Neil|207424|0510|    
+CMPSC 3113  01|krimcam|Campbell, Kristy Marie|214027|0510|    
+CMPSC 3113  01|ipsdha|Dhakal, Ipshu|216824|0510|    
+CMPSC 3113  01|davrdic|Dickinson, David R.|125657|0510|    
+CMPSC 3113  01|dartdig|Digby, Darrel Tyler|213960|0510|    
+CMPSC 3113  01|eriador|Dorsett, Erin Alexander|211685|0510|    
+CMPSC 3113  01|bsdur|Dura, Bs|217552|0510|    
+CMPSC 3113  01|dalshoc|Hockley, Dalton Scott|210839|0510|    
+CMPSC 3113  01|saskar|Karki, Sashank|215072|0510|    
+CMPSC 3113  01|johalad|Ladd, John Austin|209265|0510|    
+CMPSC 3113  01|lemesar|Lemons, Sarah Elizabeth|212204|0510|    
+CMPSC 3113  01|taslmck|Mckaughan, Tasha Lynn|218855|0510|    
+CMPSC 3113  01|abhnep|Nepal, Abhishek|216921|0510|    
+CMPSC 3113  01|fenpie|Pierre, Fendy|214696|0510|    
+CMPSC 3113  01|natdpoo|Poole, Nathan Dean|211076|0510|    
+CMPSC 3113  01|saupra|Prasain, Saurav|217731|0510|    
+CMPSC 3113  01|samopri|Price, Samuel Owen|214364|0510|    
+CMPSC 3113  01|ayuray|Rayamajhi, Ayush|217114|0510|    
+CMPSC 3113  01|joncree|Reed, Jonathan Charles|207250|0510|    
+CMPSC 3113  01|bijsha|Sharma, Bijay|216978|0510|    
+CMPSC 3113  01|tandshe|Sheffield, Tanner Dean|215120|0510|    
+CMPSC 3113  01|whinsto|Stotler, Whitney Nicole|219379|0510|    
+CMPSC 3113  01|densub|Subedi, Denish|217498|0510|    
+CMPSC 3113  01|jebsub|Subedi, Jebin|220328|0510|    
+CMPSC 3113  01|jonmsut1|Sutherland, Jonathan Mark|210255|0510|    
+CMPSC 3113  01|kirtha|Thapa, Kiran|216822|0510|    
+CMPSC 3113  01|ethhupr|Upright, Ethan H|215349|0510|    
+CMPSC 3113  01|horjvan1|Van Horn, Justin P.|122180|0510|    
+CMPSC 3113  01|jackwar|Ware, Jacob Keith|193084|0510|    
+CMPSC 3613  01|kisadh|Adhikari, Kishor|217284|0510|    
+CMPSC 3613  01|hanebar|Barnes, Hannah Elizabeth|213549|0510|    
+CMPSC 3613  01|kirbha|Bhattarai, Kiran|217289|0510|    
+CMPSC 3613  01|ryanbon|Bond, Ryan Neil|207424|0510|    
+CMPSC 3613  01|krimcam|Campbell, Kristy Marie|214027|0510|    
+CMPSC 3613  01|noahdee|Deering, Noah Hudson|220809|0510|    
+CMPSC 3613  01|ipsdha|Dhakal, Ipshu|216824|0510|    
+CMPSC 3613  01|sridha1|Dhakal, Srijan|218034|0510|    
+CMPSC 3613  01|davrdic|Dickinson, David R.|125657|0510|    
+CMPSC 3613  01|dartdig|Digby, Darrel Tyler|213960|0510|    
+CMPSC 3613  01|bsdur|Dura, Bs|217552|0510|    
+CMPSC 3613  01|ricfhel|Helms, Richard Frank|215932|0510|    
+CMPSC 3613  01|dalshoc|Hockley, Dalton Scott|210839|0510|    
+CMPSC 3613  01|amikhon|Honeycutt, Amie Kathryn|193169|0510|    
+CMPSC 3613  01|haohua|Huang, Hao|204839|0510|    
+CMPSC 3613  01|saskar|Karki, Sashank|215072|0510|    
+CMPSC 3613  01|johalad|Ladd, John Austin|209265|0510|    
+CMPSC 3613  01|pralam1|Lamichhane, Pratap|218037|0510|    
+CMPSC 3613  01|lemesar|Lemons, Sarah Elizabeth|212204|0510|    
+CMPSC 3613  01|johglyl|Lyle, Johnathan G.|207906|0510|    
+CMPSC 3613  01|bismar|Marasini, Bishal|218629|0510|    
+CMPSC 3613  01|abhnep|Nepal, Abhishek|216921|0510|    
+CMPSC 3613  01|rajpan2|Panthee, Rajin|218634|0510|    
+CMPSC 3613  01|jacrpar|Parsons, Jacob Ryan|218854|0510|    
+CMPSC 3613  01|fenpie|Pierre, Fendy|214696|0510|    
+CMPSC 3613  01|breapol|Pollock, Bretton Anthony|218043|0510|    
+CMPSC 3613  01|natdpoo|Poole, Nathan Dean|211076|0510|    
+CMPSC 3613  01|saupra|Prasain, Saurav|217731|0510|    
+CMPSC 3613  01|ayuray|Rayamajhi, Ayush|217114|0510|    
+CMPSC 3613  01|joncree|Reed, Jonathan Charles|207250|0510|    
+CMPSC 3613  01|bijsha|Sharma, Bijay|216978|0510|    
+CMPSC 3613  01|tandshe|Sheffield, Tanner Dean|215120|0510|    
+CMPSC 3613  01|dipshr|Shrestha, Dipesh|218381|0510|    
+CMPSC 3613  01|masvsta|Starkey, Mason Val|214533|0510|    
+CMPSC 3613  01|whinsto|Stotler, Whitney Nicole|219379|0510|    
+CMPSC 3613  01|densub|Subedi, Denish|217498|0510|    
+CMPSC 3613  01|dilssum|Summers, Dillon Scott|220039|0510|    
+CMPSC 3613  01|jonmsut1|Sutherland, Jonathan Mark|210255|0510|    
+CMPSC 3613  01|kirtha|Thapa, Kiran|216822|0510|    
+CMPSC 3613  01|apatiw|Tiwari, Apar|217042|0510|    
+CMPSC 3613  01|horjvan1|Van Horn, Justin P.|122180|0510|    
+CMPSC 3613  01|codlwil3|Williams, Cody Lane|209151|0510|    
+CMPSC 3943  01|chekada|Adams, Chelsea Kayleen|209650|0510|    
+CMPSC 3943  01|kisadh|Adhikari, Kishor|217284|0510|    
+CMPSC 3943  01|hanebar|Barnes, Hannah Elizabeth|213549|0510|    
+CMPSC 3943  01|kirbha|Bhattarai, Kiran|217289|0510|    
+CMPSC 3943  01|bibbhu|Bhurtel, Bibek|214229|0510|    
+CMPSC 3943  01|anibid|Bidari, Anish|217432|0510|    
+CMPSC 3943  01|dalsbut|Butler, Dalton S|207595|0510|    
+CMPSC 3943  01|krimcam|Campbell, Kristy Marie|214027|0510|    
+CMPSC 3943  01|ipsdha|Dhakal, Ipshu|216824|0510|    
+CMPSC 3943  01|ricfhel|Helms, Richard Frank|215932|0510|    
+CMPSC 3943  01|dalshoc|Hockley, Dalton Scott|210839|0510|    
+CMPSC 3943  01|amikhon|Honeycutt, Amie Kathryn|193169|0510|    
+CMPSC 3943  01|johalad|Ladd, John Austin|209265|0510|    
+CMPSC 3943  01|saulam|Lamichhane, Saujan|215387|0510|    
+CMPSC 3943  01|lemesar|Lemons, Sarah Elizabeth|212204|0510|    
+CMPSC 3943  01|taslmck|Mckaughan, Tasha Lynn|218855|0510|    
+CMPSC 3943  01|abhnep|Nepal, Abhishek|216921|0510|    
+CMPSC 3943  01|ashpag|Pageni, Ashish|214610|0510|    
+CMPSC 3943  01|fenpie|Pierre, Fendy|214696|0510|    
+CMPSC 3943  01|natdpoo|Poole, Nathan Dean|211076|0510|    
+CMPSC 3943  01|saupra|Prasain, Saurav|217731|0510|    
+CMPSC 3943  01|samopri|Price, Samuel Owen|214364|0510|    
+CMPSC 3943  01|ayuray|Rayamajhi, Ayush|217114|0510|    
+CMPSC 3943  01|joncree|Reed, Jonathan Charles|207250|0510|    
+CMPSC 3943  01|sanrim1|Rimal, Santosh|215055|0510|    
+CMPSC 3943  01|bijsha|Sharma, Bijay|216978|0510|    
+CMPSC 3943  01|tandshe|Sheffield, Tanner Dean|215120|0510|    
+CMPSC 3943  01|densub|Subedi, Denish|217498|0510|    
+CMPSC 3943  01|jebsub|Subedi, Jebin|220328|0510|    
+CMPSC 3943  01|kirtha|Thapa, Kiran|216822|0510|    
+CMPSC 3943  01|ethhupr|Upright, Ethan H|215349|0510|    
+CMPSC 3943  01|mirsvil|Villeda, Miriam Sandibel|214441|0510|    
+CMPSC 3943  01|jackwar|Ware, Jacob Keith|193084|0510|    
+CMPSC 4223  01|chekada|Adams, Chelsea Kayleen|209650|0510|    
+CMPSC 4223  01|kisadh|Adhikari, Kishor|217284|0510|    
+CMPSC 4223  01|kirbha|Bhattarai, Kiran|217289|0510|    
+CMPSC 4223  01|bibbhu|Bhurtel, Bibek|214229|0510|    
+CMPSC 4223  01|anibid|Bidari, Anish|217432|0510|    
+CMPSC 4223  01|ryanbon|Bond, Ryan Neil|207424|0510|    
+CMPSC 4223  01|krimcam|Campbell, Kristy Marie|214027|0510|    
+CMPSC 4223  01|pauzchr|Christy, Paul Zachariah|209081|0510|    
+CMPSC 4223  01|ipsdha|Dhakal, Ipshu|216824|0510|    
+CMPSC 4223  01|eriador|Dorsett, Erin Alexander|211685|0510|    
+CMPSC 4223  01|bsdur|Dura, Bs|217552|0510|    
+CMPSC 4223  01|johcemb|Embry, John C.|206668|0510|    
+CMPSC 4223  01|ricfhel|Helms, Richard Frank|215932|0510|    
+CMPSC 4223  01|dalshoc|Hockley, Dalton Scott|210839|0510|    
+CMPSC 4223  01|amikhon|Honeycutt, Amie Kathryn|193169|0510|    
+CMPSC 4223  01|haohua|Huang, Hao|204839|0510|    
+CMPSC 4223  01|saulam|Lamichhane, Saujan|215387|0510|    
+CMPSC 4223  01|lemesar|Lemons, Sarah Elizabeth|212204|0510|    
+CMPSC 4223  01|johglyl|Lyle, Johnathan G.|207906|0510|    
+CMPSC 4223  01|taslmck|Mckaughan, Tasha Lynn|218855|0510|    
+CMPSC 4223  01|jacxmoo|Moore, Jacob Xavier|212190|0510|    
+CMPSC 4223  01|abhnep|Nepal, Abhishek|216921|0510|    
+CMPSC 4223  01|ashpag|Pageni, Ashish|214610|0510|    
+CMPSC 4223  01|jacrpar|Parsons, Jacob Ryan|218854|0510|    
+CMPSC 4223  01|fenpie|Pierre, Fendy|214696|0510|    
+CMPSC 4223  01|natdpoo|Poole, Nathan Dean|211076|0510|    
+CMPSC 4223  01|saupra|Prasain, Saurav|217731|0510|    
+CMPSC 4223  01|samopri|Price, Samuel Owen|214364|0510|    
+CMPSC 4223  01|ayuray|Rayamajhi, Ayush|217114|0510|    
+CMPSC 4223  01|joncree|Reed, Jonathan Charles|207250|0510|    
+CMPSC 4223  01|sanrim1|Rimal, Santosh|215055|0510|    
+CMPSC 4223  01|vicjsan|Sanchez, Victor Jesus_Emilio|209523|0510|    
+CMPSC 4223  01|bijsha|Sharma, Bijay|216978|0510|    
+CMPSC 4223  01|masvsta|Starkey, Mason Val|214533|0510|    
+CMPSC 4223  01|whinsto|Stotler, Whitney Nicole|219379|0510|    
+CMPSC 4223  01|densub|Subedi, Denish|217498|0510|    
+CMPSC 4223  01|jebsub|Subedi, Jebin|220328|0510|    
+CMPSC 4223  01|kirtha|Thapa, Kiran|216822|0510|    
+CMPSC 4223  01|ethhupr|Upright, Ethan H|215349|0510|    
+CMPSC 4223  01|jackwar|Ware, Jacob Keith|193084|0510|    
+CPSMA 2923  01|caslcan1|Cantrell, Cassidy Lee|218519|0510|    
+CPSMA 2923  01|premdav|Davis, Preston M|217658|0510|    
+CPSMA 2923  01|noahdee|Deering, Noah Hudson|220809|0510|    
+CPSMA 2923  01|sridha1|Dhakal, Srijan|218034|0510|    
+CPSMA 2923  01|davrdic|Dickinson, David R.|125657|0510|    
+CPSMA 2923  01|tyljgif|Gifford, Tyler Jordan|218728|0510|    
+CPSMA 2923  01|saskar|Karki, Sashank|215072|0510|    
+CPSMA 2923  01|pralam1|Lamichhane, Pratap|218037|0510|    
+CPSMA 2923  01|bismar|Marasini, Bishal|218629|0510|    
+CPSMA 2923  01|casamed|Medford, Casey Alan|219813|0510|    
+CPSMA 2923  01|micjoli|Oliver, Michael Joeseph|217680|0510|    
+CPSMA 2923  01|rajpan2|Panthee, Rajin|218634|0510|    
+CPSMA 2923  01|jacrpar|Parsons, Jacob Ryan|218854|0510|    
+CPSMA 2923  01|breapol|Pollock, Bretton Anthony|218043|0510|    
+CPSMA 2923  01|ashpou|Poudel, Ashok Sharma|218380|0510|    
+CPSMA 2923  01|dipshr|Shrestha, Dipesh|218381|0510|    
+CPSMA 2923  01|daljsta|Standridge, Dalton James|215092|0510|    
+CPSMA 2923  01|natesta|Standridge, Nathan Ellis|218915|0510|    
+CPSMA 2923  01|whinsto|Stotler, Whitney Nicole|219379|0510|    
+CPSMA 2923  01|dilssum|Summers, Dillon Scott|220039|0510|    
+CPSMA 2923  01|jonmsut1|Sutherland, Jonathan Mark|210255|0510|    
+CPSMA 2923  01|chawtil|Tillar, Chase Wayne|207031|0350|    
+CPSMA 2923  01|apatiw|Tiwari, Apar|217042|0510|    
+CPSMA 2923  01|horjvan1|Van Horn, Justin P.|122180|0510|    
+CPSMA 2923  01|codlwil3|Williams, Cody Lane|209151|0510|    

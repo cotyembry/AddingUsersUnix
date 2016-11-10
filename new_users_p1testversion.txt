@@ -1,0 +1,3 @@
+johcemb:x:1234:5678:John Coty Embry+1234567:/home/STUDENTS/majors/:/usr/local/bin/bash
+johb:x:1234:5678:Jon bry+1567:/home/STUDENTS/majors/:/usr/local/bin/bash
+cemb:x:1234:5678:Coty Emby+12367:/home/STUDENTS/majors/:/usr/local/bin/bash
