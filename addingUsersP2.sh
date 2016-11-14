@@ -1,6 +1,8 @@
-#!/bin/bash
+#!/usr/local/bin/bash
 
-#/usr/local/bin/bash #not using because of developing on my Mac
+#/bin/bash #for development on Mac
+
+
 
 #         Author:		John Coty Embry
 #           Date:		11-10-2016
