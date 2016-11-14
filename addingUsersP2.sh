@@ -1,4 +1,6 @@
-#!/usr/local/bin/bash
+#/bin/bash
+
+#/usr/local/bin/bash #not using because of developing on my Mac
 
 #Author:	John Coty Embry
 #Date:		11-10-2016
@@ -47,6 +49,7 @@ while read line; do
 		if [ "$courseNumber" != "2923" ]; then
 			#if here, per the instructions do not create an account for this iteration
 			doNotCreateUser=1
+		fi
 	fi
 
 	#now I have filtered out the CPSMA course prefix people. If they were enrolled in this course prefix they will not be added as a user, but if they had CPSMA 2923, this would be the only exception to allow them to have an account created
