@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 
 #/usr/local/bin/bash #not using because of developing on my Mac
 
@@ -18,9 +18,9 @@
 #use the cs_roster.txt file for input directory from my home directory /home/faculty/mkt
 #-------
 
-#majorCodeForComputerScience=0510
-#majorDirectory='/home/STUDENTS/majors'
-#nonmajorDirectory='/home/STUDENTS/nonmajors'
+majorCodeForComputerScience=0510
+majorDirectory='/home/STUDENTS/majors'
+nonmajorDirectory='/home/STUDENTS/nonmajors'
 
 (
 while read line; do
@@ -63,12 +63,17 @@ while read line; do
 	#now I have filtered out the CPSMA course prefix people. If they were enrolled in this course prefix they will not be added as a user, but if they had CPSMA 2923, this would be the only exception to allow them to have an account created
 
 	#continue to step 3.
-	#now see if the major code of this person is a Computer Science major
-	
-	if [ "$majorCode" == "$majorCodeForComputerScience"  ]; then
-		echo $fullname
-	fi
+	#to add the user or not...check using above flag. Then its time to go either major or nonmajor
 
+	if [ "$doNotCreateUser" == 0  ]; then
+		#see if the major code of this person is a Computer Science major
+		if [ "$majorCode" == "$majorCodeForComputerScience"  ]; then
+			echo $fullname $majorDirectory
+		else
+			echo $fullname	$nonmajorDirectory
+		fi
+
+	fi
 
 
 
