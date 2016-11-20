@@ -1,0 +1,510 @@
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/bin/sh
+bin:x:2:2:bin:/bin:/bin/sh
+sys:x:3:3:sys:/dev:/bin/sh
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/bin/sh
+man:x:6:12:man:/var/cache/man:/bin/sh
+lp:x:7:7:lp:/var/spool/lpd:/bin/sh
+mail:x:8:8:mail:/var/mail:/bin/sh
+news:x:9:9:news:/var/spool/news:/bin/sh
+uucp:x:10:10:uucp:/var/spool/uucp:/bin/sh
+proxy:x:13:13:proxy:/bin:/bin/sh
+www-data:x:33:33:www-data:/var/www:/bin/sh
+backup:x:34:34:backup:/var/backups:/bin/sh
+list:x:38:38:Mailing List Manager:/var/list:/bin/sh
+irc:x:39:39:ircd:/var/run/ircd:/bin/sh
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/bin/sh
+nobody:x:65534:65534:nobody:/nonexistent:/bin/sh
+libuuid:x:100:101::/var/lib/libuuid:/bin/sh
+syslog:x:101:102::/home/syslog:/bin/false
+klog:x:102:103::/home/klog:/bin/false
+hplip:x:103:7:HPLIP system user,,,:/var/run/hplip:/bin/false
+avahi-autoipd:x:104:110:Avahi autoip daemon,,,:/var/lib/avahi-autoipd:/bin/false
+saned:x:106:113::/home/saned:/bin/false
+messagebus:x:108:117::/var/run/dbus:/bin/false
+polkituser:x:109:118:PolicyKit,,,:/var/run/PolicyKit:/bin/false
+avahi:x:110:119:Avahi mDNS daemon,,,:/var/run/avahi-daemon:/bin/false
+haldaemon:x:111:120:Hardware abstraction layer,,,:/var/run/hald:/bin/false
+sshd:x:112:65534::/var/run/sshd:/usr/sbin/nologin
+Debian-exim:x:113:123::/var/spool/exim4:/bin/false
+postfix:x:114:124::/var/spool/postfix:/bin/false
+bind:x:115:126::/var/cache/bind:/bin/false
+mysql:x:116:127:MySQL Server,,,:/var/lib/mysql:/bin/false
+named:x:1001:1001:BIND :/home/named:/bin/false
+postgres:x:117:128:PostgreSQL administrator,,,:/usr/local/pgsql:/bin/bash
+proftpd:x:118:65534::/var/run/proftpd:/bin/false
+ftp:x:119:65534::/home/DATA/FTP:/bin/false
+cbc:x:1002:1002:Carley Clay:/home/faculty/cbc:/bin/bash
+mkt:x:1003:1003:Tarver Mary Kay:/home/faculty/mkt:/bin/bash
+nx:x:120:129:FreeNX Server,,,:/var/lib/nxserver/home/:/usr/bin/nxserver
+zope:x:121:130::/var/lib/zope:/bin/false
+netmrg:x:123:33:netmrg,,,:/var/lib/netmrg:/bin/bash
+smokeping:x:124:131:SmokePing daemon,,,:/var/lib/smokeping:/bin/false
+clamav:x:125:132::/var/lib/clamav:/bin/false
+ntp:x:126:133::/home/ntp:/bin/false
+bacula:x:127:136:Bacula:/var/lib/bacula:/bin/false
+docvert:x:128:137:Docvert Converter,,,:/var/lib/docvert/home:/bin/false
+enroll:x:129:65534::/usr/local/ENROLL/enroll:/bin/bash
+munin:x:107:116::/var/lib/munin:/bin/false
+webcam:x:5396:5396::/home/DATA/VirtualHosts/cs/WebCam:/bin/sh
+rferd:x:5397:5397:Robert R. Ferdinand:/home/faculty/rferd:/bin/bash
+stunnel4:x:131:139::/var/run/stunnel4:/bin/false
+dovecot:x:132:140:Dovecot mail server,,,:/usr/lib/dovecot:/bin/false
+dkim-filter:x:133:141::/var/run/dkim-filter:/bin/false
+chairman:x:6308:6309:Four Year Plan Chairman:/home/chairman:/bin/bash
+rtkit:x:134:143:RealtimeKit,,,:/proc:/bin/false
+usbmux:x:135:46:usbmux daemon,,,:/home/usbmux:/bin/false
+kdm:x:137:65534::/home/kdm:/bin/false
+jetty:x:105:111::/usr/share/jetty:/bin/false
+gdm:x:1004:1004:gdm,,,:/home/gdm:/bin/bash
+motion:x:122:1006::/home/motion:/bin/false
+colord:x:136:144:colord colour management daemon,,,:/var/lib/colord:/bin/false
+dovenull:x:139:65534:Dovecot login user,,,:/nonexistent:/bin/false
+lightdm:x:140:148:Light Display Manager:/var/lib/lightdm:/bin/false
+dhcpd:x:138:147::/var/run:/bin/false
+nbd:x:141:149::/etc/nbd-server:/bin/false
+pulse:x:143:152:PulseAudio daemon,,,:/var/run/pulse:/bin/false
+landscape:x:144:154::/var/lib/landscape:/bin/false
+tftp:x:142:150:tftpboot:/var/lib/tftpboot:/bin/false
+gitlog:x:145:65534::/nonexistent:/bin/false
+gitdaemon:x:146:65534::/nonexistent:/bin/false
+dmyers:x:7459:7460:Myers Dwight:/home/faculty/dmyers:/bin/bash
+cl-builder:x:147:156::/usr/share/common-lisp/:/bin/false
+radvd:x:148:65534::/var/run/radvd:/bin/false
+debian-sks:x:149:157::/var/lib/sks:/bin/bash
+njacob:x:7943:7944:Jacob Nick:/home/faculty/njacob:/bin/bash
+git:x:7948:7949:Git Repository:/home/DATA/VirtualHosts/git:/usr/bin/git-shell
+snort:x:150:158:Snort IDS:/var/log/snort:/bin/false
+guipig:x:8351:8352:Pig Guinea:/home/STUDENTS/nonmajors/guipig:/bin/bash
+opendkim:x:201:201:Opendkim Filters,,,:/usr/local/etc/opendkim:/bin/false
+advisor:x:130:65534:Advisor:/home/advisor:/bin/sh
+csadmin:x:1000:1000:Computer Science System Admin:/home/csadmin:/bin/bash
+ecuit:x:8364:8365:ECU Information Technology:/home/faculty/ecuit:/bin/bash
+cbcstu:x:8371:8372:Carley Test Student+cbc000:/home/STUDENTS/majors/cbcstu:/bin/bash
+mktstu:x:8372:8373:Tarver Test Student+mkt000:/home/STUDENTS/majors/mktstu:/bin/bash
+rferdstu:x:8373:8374:Ferdinand Test Student+rferd00:/home/STUDENTS/majors/rferdstu:/bin/bash
+odiskac:x:8383:8384:Kachikwu, Odiaka Simeon+202788:/home/STUDENTS/majors/odiskac:/bin/bash
+purbhu:x:8389:8390:Bhusal, Purushottam+216641:/home/STUDENTS/majors/purbhu:/bin/bash
+daljsta:x:8396:8397:Standridge, Dalton James+215092:/home/STUDENTS/majors/daljsta:/bin/bash
+jackwar:x:8406:8407:Ware, Jacob Keith+193084:/home/STUDENTS/majors/jackwar:/bin/bash
+jormrem:x:8407:8408:Remis-Crumb, Jordan Mikel+214513:/home/STUDENTS/majors/jormrem:/bin/bash
+johplin:x:8423:8424:Linebarger, John P+161364:/home/STUDENTS/majors/johplin:/bin/bash
+micspu:x:8436:8437:Spurlock, Michael Robert+196353:/home/STUDENTS/majors/micspu:/bin/bash
+rajpan1:x:8437:8438:Pancha, Rajesh+216267:/home/STUDENTS/majors/rajpan1:/bin/bash
+ciensod:x:8448:8449:Soden, Cierra Nicole+212436:/home/STUDENTS/majors/ciensod:/bin/bash
+sujpau1:x:8452:8453:Paudel, Sujal+216013:/home/STUDENTS/majors/sujpau1:/bin/bash
+jacxmoo:x:8454:8455:Moore, Jacob Xavier+212190:/home/STUDENTS/majors/jacxmoo:/bin/bash
+ethhupr:x:8458:8459:Upright, Ethan H+215349:/home/STUDENTS/majors/ethhupr:/bin/bash
+miclfla:x:8465:8466:Flanagan, Michael Lee+201505:/home/STUDENTS/majors/miclfla:/bin/bash
+mirsvil:x:8469:8470:Villeda, Miriam Sandibel+214441:/home/STUDENTS/majors/mirsvil:/bin/bash
+osepie:x:8473:8474:Pierre, Osee+212205:/home/STUDENTS/majors/osepie:/bin/bash
+ricfhel:x:8475:8476:Helms, Richard Frank+215932:/home/STUDENTS/majors/ricfhel:/bin/bash
+dalsbut:x:8477:8478:Butler, Dalton S+207595:/home/STUDENTS/majors/dalsbut:/bin/bash
+robfra:x:8479:8480:Frazier, Robert+203086:/home/STUDENTS/majors/robfra:/bin/bash
+spedtol:x:8488:8489:Tolle, Spencer Drake+213753:/home/STUDENTS/majors/spedtol:/bin/bash
+masvsta:x:8489:8490:Starkey, Mason Val+214533:/home/STUDENTS/majors/masvsta:/bin/bash
+gioabet:x:8494:8495:Bethel, Giovanni Aaron+212252:/home/STUDENTS/majors/gioabet:/bin/bash
+solapin:x:8495:8496:Pinder, Solomon Akil+212101:/home/STUDENTS/majors/solapin:/bin/bash
+timjbro:x:8518:8519:Brown, Timothy Joel+206023:/home/STUDENTS/majors/timjbro:/bin/bash
+haycbla:x:8520:8521:Blakemore, Hayden Connor+213569:/home/STUDENTS/majors/haycbla:/bin/bash
+dalshoc:x:8534:8535:Hockley, Dalton Scott+210839:/home/STUDENTS/majors/dalshoc:/bin/bash
+andnbur:x:8542:8543:Burnsworth, Andrea Nicole+212134:/home/STUDENTS/majors/andnbur:/bin/bash
+pauzchr:x:8543:8544:Christy, Paul Zachariah+209081:/home/STUDENTS/majors/pauzchr:/bin/bash
+darcbaq:x:8557:8558:Baquera, Daryl Christian+183265:/home/STUDENTS/majors/darcbaq:/bin/bash
+saulam:x:8560:8561:Lamichhane, Saujan+215387:/home/STUDENTS/majors/saulam:/bin/bash
+andlwil2:x:8565:8566:Willis, Andrew Lane+210176:/home/STUDENTS/majors/andlwil2:/bin/bash
+lemesar:x:8572:8573:Lemons, Sarah Elizabeth+212204:/home/STUDENTS/majors/lemesar:/bin/bash
+davsell:x:8573:8574:Elliott, David Shane+216197:/home/STUDENTS/majors/davsell:/bin/bash
+johalad:x:8580:8581:Ladd, John Austin+209265:/home/STUDENTS/majors/johalad:/bin/bash
+gavmsus:x:8584:8585:Susca, Gavin Michael+212469:/home/STUDENTS/majors/gavmsus:/bin/bash
+ramhpan:x:8595:8596:Pandey, Ram Hari+216021:/home/STUDENTS/majors/ramhpan:/bin/bash
+carwhat:x:8600:8601:Hatcher, Carl Wayne,, Jr+216112:/home/STUDENTS/majors/carwhat:/bin/bash
+tandshe:x:8603:8604:Sheffield, Tanner Dean+215120:/home/STUDENTS/majors/tandshe:/bin/bash
+haohua:x:8606:8607:Huang, Hao+204839:/home/STUDENTS/majors/haohua:/bin/bash
+micrnat:x:8623:8624:Nathan, Micah Roy+215345:/home/STUDENTS/majors/micrnat:/bin/bash
+jacdhix:x:8627:8628:Hix, Jacob Dillon+206701:/home/STUDENTS/majors/jacdhix:/bin/bash
+vicjsan:x:8629:8630:Sanchez, Victor Jesus_Emilio+209523:/home/STUDENTS/majors/vicjsan:/bin/bash
+ashpag:x:8633:8634:Pageni, Ashish+214610:/home/STUDENTS/majors/ashpag:/bin/bash
+tantia:x:8635:8636:Tan, Tianwu+214389:/home/STUDENTS/majors/tantia:/bin/bash
+ashbhuh:x:8660:8661:Huhman, Ashley B+205469:/home/STUDENTS/majors/ashbhuh:/bin/bash
+saskar:x:8665:8666:Karki, Sashank+215072:/home/STUDENTS/majors/saskar:/bin/bash
+jonekel:x:8668:8669:Kelly, Jonathan Evan+208213:/home/STUDENTS/majors/jonekel:/bin/bash
+ramkha:x:8674:8675:Khadka, Ramesh+211130:/home/STUDENTS/majors/ramkha:/bin/bash
+madupa:x:8676:8677:Upadhyay, Madan+212922:/home/STUDENTS/majors/madupa:/bin/bash
+bibbhu:x:8702:8703:Bhurtel, Bibek+214229:/home/STUDENTS/majors/bibbhu:/bin/bash
+dartdig:x:8704:8705:Digby, Darrel Tyler+213960:/home/STUDENTS/majors/dartdig:/bin/bash
+johmell:x:8709:8710:Elliott, John Marshall+211411:/home/STUDENTS/majors/johmell:/bin/bash
+aawkchh:x:8728:8729:Chhetri, Aawaz Khati+209612:/home/STUDENTS/majors/aawkchh:/bin/bash
+samopri:x:8731:8732:Price, Samuel Owen+214364:/home/STUDENTS/majors/samopri:/bin/bash
+utstiw:x:8737:8738:Tiwari, Utshav+213438:/home/STUDENTS/majors/utstiw:/bin/bash
+eriador:x:8739:8740:Dorsett, Erin Alexander+211685:/home/STUDENTS/majors/eriador:/bin/bash
+wilmrau:x:8742:8743:Rauch, William Marshall+198697:/home/STUDENTS/majors/wilmrau:/bin/bash
+shambro1:x:8748:8749:Brown, Shaun M+125132:/home/STUDENTS/majors/shambro1:/bin/bash
+kshbshr:x:8751:8752:Shrestha, Kshitiz Bhakta+208274:/home/STUDENTS/majors/kshbshr:/bin/bash
+lucphud:x:8765:8766:Hudson, Lucas P+123278:/home/STUDENTS/majors/lucphud:/bin/bash
+bijsha:x:8768:8769:Sharma, Bijay+216978:/home/STUDENTS/majors/bijsha:/bin/bash
+amikhon:x:8787:8788:Honeycutt, Amie Kathryn+193169:/home/STUDENTS/majors/amikhon:/bin/bash
+matrste:x:8792:8793:Stewart, Matthew Robert+218186:/home/STUDENTS/majors/matrste:/bin/bash
+kirbha:x:8798:8799:Bhattarai, Kiran+217289:/home/STUDENTS/majors/kirbha:/bin/bash
+fenpie:x:8799:8800:Pierre, Fendy+214696:/home/STUDENTS/majors/fenpie:/bin/bash
+ipsdha:x:8800:8801:Dhakal, Ipshu+216824:/home/STUDENTS/majors/ipsdha:/bin/bash
+jonrken:x:8815:8816:Kennedy, Jonathan Ridge+205939:/home/STUDENTS/majors/jonrken:/bin/bash
+kaylwee:x:8825:8826:Weeks, Kaysie Lauree+215783:/home/STUDENTS/majors/kaylwee:/bin/bash
+devtjon:x:8829:8830:Jones, DeVonte Terrell+207518:/home/STUDENTS/majors/devtjon:/bin/bash
+kisadh:x:8832:8833:Adhikari, Kishor+217284:/home/STUDENTS/majors/kisadh:/bin/bash
+johcemb:x:8843:8844:Embry, John C+206668:/home/STUDENTS/majors/johcemb:/bin/bash
+hanebar:x:8845:8846:Barnes, Hannah Elizabeth+213549:/home/STUDENTS/majors/hanebar:/bin/bash
+krimcam:x:8859:8860:Campbell, Kristy Marie+214027:/home/STUDENTS/majors/krimcam:/bin/bash
+anibid:x:8875:8876:Bidari, Anish+217432:/home/STUDENTS/majors/anibid:/bin/bash
+abhnep:x:8880:8881:Nepal, Abhishek+216921:/home/STUDENTS/majors/abhnep:/bin/bash
+natdpoo:x:8881:8882:Poole, Nathan Dean+211076:/home/STUDENTS/majors/natdpoo:/bin/bash
+kirtha:x:8889:8890:Thapa, Kiran+216822:/home/STUDENTS/majors/kirtha:/bin/bash
+chekada:x:8649:8650:Adams, Chelsea Kayleen+209650:/home/STUDENTS/majors/chekada:/bin/bash
+bsdur:x:8899:8900:Dura, BS+217552:/home/STUDENTS/majors/bsdur:/bin/bash
+densub:x:8902:8903:Subedi, Denish+217498:/home/STUDENTS/majors/densub:/bin/bash
+yabmal:x:8904:8905:Malla, Yabin+218090:/home/STUDENTS/majors/yabmal:/bin/bash
+saupra:x:8905:8906:Prasain, Saurav+217731:/home/STUDENTS/majors/saupra:/bin/bash
+ayuray:x:8913:8914:Rayamajhi, Ayush+217114:/home/STUDENTS/majors/ayuray:/bin/bash
+sanrim1:x:8919:8920:Rimal, Santosh+215055:/home/STUDENTS/majors/sanrim1:/bin/bash
+kusshr:x:8923:8924:Shrestha, Kushal+220320:/home/STUDENTS/majors/kusshr:/bin/bash
+prabas:x:8925:8926:Baskota, Pramesh+219716:/home/STUDENTS/majors/prabas:/bin/bash
+parbas1:x:8928:8929:Bastakoti, Parbin+219777:/home/STUDENTS/majors/parbas1:/bin/bash
+srisin:x:8932:8933:Singh, Srijan+218296:/home/STUDENTS/majors/srisin:/bin/bash
+joncree:x:8941:8942:Reed, Jonathan Charles+207250:/home/STUDENTS/majors/joncree:/bin/bash
+apatiw:x:8942:8943:Tiwari, Apar+217042:/home/STUDENTS/majors/apatiw:/bin/bash
+sustha:x:8943:8944:Thapa, Sushil+220177:/home/STUDENTS/majors/sustha:/bin/bash
+whinsto:x:8946:8947:Stotler, Whitney Nicole+219379:/home/STUDENTS/majors/whinsto:/bin/bash
+dipshr:x:8952:8953:Shrestha, Dipesh+218381:/home/STUDENTS/majors/dipshr:/bin/bash
+dikkc:x:8956:8957:KC, Dikshanta+218626:/home/STUDENTS/majors/dikkc:/bin/bash
+jebsub:x:8958:8959:Subedi, Jebin+220328:/home/STUDENTS/majors/jebsub:/bin/bash
+pawpan:x:8960:8961:Pandey, Pawan+219424:/home/STUDENTS/majors/pawpan:/bin/bash
+andwcoo:x:8962:8963:Cook, Andrew Wylie+216985:/home/STUDENTS/majors/andwcoo:/bin/bash
+bispok:x:8967:8968:Pokhrel, Biswash+219260:/home/STUDENTS/majors/bispok:/bin/bash
+samabol:x:8969:8970:Bolitho, Samuel Alexander+205544:/home/STUDENTS/majors/samabol:/bin/bash
+mastazi:x:8972:8973:Aziz, Mashure Tanjimul+219280:/home/STUDENTS/majors/mastazi:/bin/bash
+jesaler:x:8976:8977:Lerma, Jesus Arturo+216968:/home/STUDENTS/majors/jesaler:/bin/bash
+suvlig:x:8979:8980:Ligal, Suvam+218105:/home/STUDENTS/majors/suvlig:/bin/bash
+premdav:x:8982:8983:Davis, Preston M+217658:/home/STUDENTS/majors/premdav:/bin/bash
+rissin:x:8989:8990:Singh, Rishu+217760:/home/STUDENTS/majors/rissin:/bin/bash
+saubha:x:8991:8992:Bhatta, Saurav+218576:/home/STUDENTS/majors/saubha:/bin/bash
+ryaachi:x:8995:8996:Chitty, Ryan Alexander+218675:/home/STUDENTS/majors/ryaachi:/bin/bash
+avegsha:x:8998:8999:Sharp, Avery Gunner+218515:/home/STUDENTS/majors/avegsha:/bin/bash
+taslmck:x:8999:9000:Mckaughan, Tasha Lynn+218855:/home/STUDENTS/majors/taslmck:/bin/bash
+sagtha:x:9005:9006:Thapa, Sagar+218301:/home/STUDENTS/majors/sagtha:/bin/bash
+tyljgif:x:9012:9013:Gifford, Tyler Jordan+218728:/home/STUDENTS/majors/tyljgif:/bin/bash
+narbhu:x:9014:9015:Bhusal, Naresh+219329:/home/STUDENTS/majors/narbhu:/bin/bash
+gaukc:x:9024:9025:KC, Gautam+218367:/home/STUDENTS/majors/gaukc:/bin/bash
+jacrpar:x:9027:9028:Parsons, Jacob Ryan+218854:/home/STUDENTS/majors/jacrpar:/bin/bash
+johmbra:x:9029:9030:Bratton, John M+124778:/home/STUDENTS/majors/johmbra:/bin/bash
+ashmah1:x:9030:9031:Mahat, Ashmin+219337:/home/STUDENTS/majors/ashmah1:/bin/bash
+dyltmck:x:9034:9035:McKinley, Dylan Todd+187350:/home/STUDENTS/majors/dyltmck:/bin/bash
+nisbsha:x:9037:9038:Shah, Nischit Bikram+218485:/home/STUDENTS/majors/nisbsha:/bin/bash
+casamed:x:9038:9039:Medford, Casey Alan+219813:/home/STUDENTS/majors/casamed:/bin/bash
+dalwcog:x:9041:9042:Cogburn, Dalton Wade,, Sr+218259:/home/STUDENTS/majors/dalwcog:/bin/bash
+bismar:x:9044:9045:Marasini, Bishal+218629:/home/STUDENTS/majors/bismar:/bin/bash
+micjoli:x:9045:9046:Oliver, Michael Joeseph+217680:/home/STUDENTS/majors/micjoli:/bin/bash
+ajitha:x:9046:9047:Thakur, Ajit+220095:/home/STUDENTS/majors/ajitha:/bin/bash
+rahshr:x:9051:9052:Shrestha, Rahul+219734:/home/STUDENTS/majors/rahshr:/bin/bash
+rajpan2:x:9053:9054:Panthee, Rajin+218634:/home/STUDENTS/majors/rajpan2:/bin/bash
+julmag:x:9064:9065:Magaju, Julsan+218287:/home/STUDENTS/majors/julmag:/bin/bash
+anjbha:x:9068:9069:Bhandari, Anjila+220144:/home/STUDENTS/majors/anjbha:/bin/bash
+ryacjoh:x:9071:9072:Johnson, Ryan Christopher+211531:/home/STUDENTS/majors/ryacjoh:/bin/bash
+sunary:x:9073:9074:Aryal, Sunaina+216965:/home/STUDENTS/majors/sunary:/bin/bash
+safkoi:x:9076:9077:Koirala, Safal+218863:/home/STUDENTS/majors/safkoi:/bin/bash
+huyqho:x:9077:9078:Ho, Huy Quoc+207419:/home/STUDENTS/majors/huyqho:/bin/bash
+codlwil3:x:9080:9081:Williams, Cody Lane+209151:/home/STUDENTS/majors/codlwil3:/bin/bash
+josmjef:x:9087:9088:Jefferson, Joseph Matthew,, Jr+218913:/home/STUDENTS/majors/josmjef:/bin/bash
+ashdha:x:9090:9091:Dhakal, Ashma+218989:/home/STUDENTS/majors/ashdha:/bin/bash
+samsha:x:9091:9092:Shakya, Samrat+219350:/home/STUDENTS/majors/samsha:/bin/bash
+sridha1:x:9093:9094:Dhakal, Srijan+218034:/home/STUDENTS/majors/sridha1:/bin/bash
+akishr:x:9117:9118:Shrestha, Alina+219268:/home/STUDENTS/majors/akishr:/bin/bash
+sanbur:x:9118:9119:Burlakoti, Sandesh+219282:/home/STUDENTS/majors/sanbur:/bin/bash
+davrdic:x:9120:9121:Dickinson, David R+125657:/home/STUDENTS/majors/davrdic:/bin/bash
+jitksah:x:9122:9123:Sah, Jitesh Kumar+218293:/home/STUDENTS/majors/jitksah:/bin/bash
+surtam1:x:9129:9130:Tamang, Suresh+219105:/home/STUDENTS/majors/surtam1:/bin/bash
+ujjoli:x:9131:9132:Oli, Ujjwal+219116:/home/STUDENTS/majors/ujjoli:/bin/bash
+caslcan1:x:9142:9143:Cantrell, Cassidy Lee+218519:/home/STUDENTS/majors/caslcan1:/bin/bash
+donjbur:x:9144:9145:Burch, Donald James+217457:/home/STUDENTS/majors/donjbur:/bin/bash
+santiw:x:9145:9146:Tiwari, Santosh+220228:/home/STUDENTS/majors/santiw:/bin/bash
+josmrog:x:9146:9147:Rogers, Joshua Michael+219908:/home/STUDENTS/majors/josmrog:/bin/bash
+bipkar:x:9148:9149:Karki, Bipul+219937:/home/STUDENTS/majors/bipkar:/bin/bash
+aakmal:x:9152:9153:Malla, Aakash+219592:/home/STUDENTS/majors/aakmal:/bin/bash
+natesta:x:9156:9157:Standridge, Nathan Ellis+218915:/home/STUDENTS/majors/natesta:/bin/bash
+pralam1:x:9163:9164:Lamichhane, Pratap+218037:/home/STUDENTS/majors/pralam1:/bin/bash
+ashreg:x:9174:9175:Regmi, Ashwin+218038:/home/STUDENTS/majors/ashreg:/bin/bash
+milshr:x:9175:9176:Shrestha, Milan+220345:/home/STUDENTS/majors/milshr:/bin/bash
+khahea:x:9176:9177:Khadka, Heaven+219728:/home/STUDENTS/majors/khahea:/bin/bash
+chaaqui:x:9187:9188:Quiett, Chad Austin+220315:/home/STUDENTS/majors/chaaqui:/bin/bash
+sungha:x:9189:9190:Gharti Magar, Sunil+220020:/home/STUDENTS/majors/sungha:/bin/bash
+deebas:x:9190:9191:Basnet, Deependra+220337:/home/STUDENTS/majors/deebas:/bin/bash
+sanbhu:x:9194:9195:Bhusal, Sandesh+218280:/home/STUDENTS/majors/sanbhu:/bin/bash
+kusdev:x:9197:9198:Devkota, Kusal+218033:/home/STUDENTS/majors/kusdev:/bin/bash
+dilssum:x:9210:9211:Summers, Dillon Scott+220039:/home/STUDENTS/majors/dilssum:/bin/bash
+devtlam:x:9218:9219:Lam, Devon Tyler+217185:/home/STUDENTS/majors/devtlam:/bin/bash
+nimpou:x:9219:9220:Poudel, Nimesh+211214:/home/STUDENTS/majors/nimpou:/bin/bash
+babdan:x:9221:9222:Dangol, Babita+218943:/home/STUDENTS/majors/babdan:/bin/bash
+kevadam:x:9222:9223:Dampf, Kevin Allen+218933:/home/STUDENTS/majors/kevadam:/bin/bash
+breapol:x:9225:9226:Pollock, Bretton Anthony+218043:/home/STUDENTS/majors/breapol:/bin/bash
+condren:x:9229:9230:Renes, Connor Dale+219274:/home/STUDENTS/majors/condren:/bin/bash
+breclin:x:9232:9233:Lindsey, Brendon Charles+215445:/home/STUDENTS/majors/breclin:/bin/bash
+dipbha1:x:9237:9238:Bharati, Dipendra+219694:/home/STUDENTS/majors/dipbha1:/bin/bash
+zacwmar:x:9253:9254:Martin, Zachary Wayne_Dale+205961:/home/STUDENTS/majors/zacwmar:/bin/bash
+kunsiw:x:9254:9255:Siwakoti, Kundan+218639:/home/STUDENTS/majors/kunsiw:/bin/bash
+jaclsmi:x:9264:9265:Smith, Jackie Leon+217028:/home/STUDENTS/majors/jaclsmi:/bin/bash
+pracsah:x:9268:9269:Sah, Prakash Chandra+219724:/home/STUDENTS/majors/pracsah:/bin/bash
+ashsha:x:9270:9271:Sharma Poudel, Ashok+218380:/home/STUDENTS/majors/ashsha:/bin/bash
+swepau:x:9272:9273:Paudel, Sweta+219013:/home/STUDENTS/majors/swepau:/bin/bash
+anipou:x:9276:9277:Poudel, Anish+219895:/home/STUDENTS/majors/anipou:/bin/bash
+sanadh:x:9286:9287:Adhikari, Sandesh+218171:/home/STUDENTS/majors/sanadh:/bin/bash
+anisha:x:9293:9294:Sharma, Anish+218378:/home/STUDENTS/majors/anisha:/bin/bash
+erield:x:9295:9296:Eldagsen Marquez, Erik+217544:/home/STUDENTS/majors/erield:/bin/bash
+surbud:x:9302:9303:Budhaprithi, Suraj+219225:/home/STUDENTS/majors/surbud:/bin/bash
+udipkoi:x:9304:9305:Koirala, Udip P+219237:/home/STUDENTS/majors/udipkoi:/bin/bash
+idamnic:x:9307:9308:Nicks, Ida Marie+216411:/home/STUDENTS/majors/idamnic:/bin/bash
+rajdmah:x:9308:9309:Maharjan, Rajin Dangol+220990:/home/STUDENTS/majors/rajdmah:/bin/bash
+sumpou:x:9310:9311:Poudel, Suman+219774:/home/STUDENTS/majors/sumpou:/bin/bash
+fradmil:x:9312:9313:Miller, Frank Daniel+218631:/home/STUDENTS/majors/fradmil:/bin/bash
+ryanbon:x:9313:9314:Bond, Ryan Neil+207424:/home/STUDENTS/majors/ryanbon:/bin/bash
+pratha:x:9315:9316:Thapa, Prabikshya+221037:/home/STUDENTS/majors/pratha:/bin/bash
+bipyog:x:9316:9317:Yogi, Bipin+221124:/home/STUDENTS/majors/bipyog:/bin/bash
+jastman:x:9317:9318:Mann, Jason Tyler+214193:/home/STUDENTS/majors/jastman:/bin/bash
+horjvan1:x:9318:9319:Van Horn, Justin P+122180:/home/STUDENTS/majors/horjvan1:/bin/bash
+sagsar:x:9319:9320:Saru, Sagar+221087:/home/STUDENTS/majors/sagsar:/bin/bash
+bibkc:x:9320:9321:KC, Bibek+221084:/home/STUDENTS/majors/bibkc:/bin/bash
+bibsil:x:9322:9323:Silwal, Bibek+221391:/home/STUDENTS/majors/bibsil:/bin/bash
+panshr:x:9323:9324:Shrestha, Pankaj+221172:/home/STUDENTS/majors/panshr:/bin/bash
+yoggir:x:9326:9327:Giri, Yogesh+221295:/home/STUDENTS/majors/yoggir:/bin/bash
+biljdav:x:9328:9329:Davis, Billy J,,Jr+121619:/home/STUDENTS/majors/biljdav:/bin/bash
+jonmsut1:x:9329:9330:Sutherland, Jonathan Mark+210255:/home/STUDENTS/majors/jonmsut1:/bin/bash
+ganpan:x:9332:9333:Pandey, Ganesh+221164:/home/STUDENTS/majors/ganpan:/bin/bash
+garhbro:x:9333:9334:Brooks, Gary Hollin+216647:/home/STUDENTS/majors/garhbro:/bin/bash
+sujrij:x:9334:9335:Rijal, Sujan+221226:/home/STUDENTS/majors/sujrij:/bin/bash
+noahdee:x:9337:9338:Deering, Noah Hudson+220809:/home/STUDENTS/majors/noahdee:/bin/bash
+samrwag:x:9338:9339:Wagle, Samartha Raj+221460:/home/STUDENTS/majors/samrwag:/bin/bash
+ashmai:x:9339:9340:Mainali, Ashish+220017:/home/STUDENTS/majors/ashmai:/bin/bash
+shrkar:x:9340:9341:Karki, Shreskar+221251:/home/STUDENTS/majors/shrkar:/bin/bash
+saudah:x:9341:9342:Dahal, Saurav+220978:/home/STUDENTS/majors/saudah:/bin/bash
+pusnkad:x:9342:9343:Kadariya, Puspa Nath+219578:/home/STUDENTS/majors/pusnkad:/bin/bash
+nicetho:x:9344:9345:Thomas, Nick Elias+216993:/home/STUDENTS/majors/nicetho:/bin/bash
+chaawar:x:9346:9347:Ward, Charles A+133383:/home/STUDENTS/majors/chaawar:/bin/bash
+yogmah:x:9347:9348:Maharjan, Yogendra+221158:/home/STUDENTS/majors/yogmah:/bin/bash
+satneu:x:9350:9351:Neupane, Satish+221056:/home/STUDENTS/majors/satneu:/bin/bash
+prapou:x:9353:9354:Poudel, Pradip+219949:/home/STUDENTS/majors/prapou:/bin/bash
+yubtam:x:9354:9355:Tamang, Yubraj+219483:/home/STUDENTS/majors/yubtam:/bin/bash
+bhasub:x:9355:9356:Subedi, Bhabish+221175:/home/STUDENTS/majors/bhasub:/bin/bash
+shashr2:x:9356:9357:Shrestha, Shashank+221023:/home/STUDENTS/majors/shashr2:/bin/bash
+bispkar:x:9357:9358:Karki, Bishwo Prakash+221071:/home/STUDENTS/majors/bispkar:/bin/bash
+dhitlam:x:9358:9359:Lama, Dhiraj Thing+221070:/home/STUDENTS/majors/dhitlam:/bin/bash
+jarlsel:x:9361:9362:Self, Jared Levi+221327:/home/STUDENTS/majors/jarlsel:/bin/bash
+nirsap:x:9364:9365:Sapkota, Niranjan+220375:/home/STUDENTS/majors/nirsap:/bin/bash
+prasat:x:9366:9367:Satyal, Pranab_Raj+220879:/home/STUDENTS/majors/prasat:/bin/bash
+sagwai:x:9367:9368:Waiba, Sagar+220966:/home/STUDENTS/majors/sagwai:/bin/bash
+tilgmag:x:9368:9369:Magar, Tilakram Gharti+221116:/home/STUDENTS/majors/tilgmag:/bin/bash
+ruppok:x:9373:9374:Pokharel, Rupesh+221314:/home/STUDENTS/majors/ruppok:/bin/bash
+joscall:x:9375:9376:Allison, Joshua Cayle+207215:/home/STUDENTS/majors/joscall:/bin/bash
+sautiw:x:9377:9378:Tiwari, Saurabh+221488:/home/STUDENTS/majors/sautiw:/bin/bash
+aksrgau:x:9378:9379:Gautam, Akshay Raj+221240:/home/STUDENTS/majors/aksrgau:/bin/bash
+nirsha:x:9382:9383:Shakya, Niraj+219482:/home/STUDENTS/majors/nirsha:/bin/bash
+krisha:x:9386:9387:Shah, Krishna+221169:/home/STUDENTS/majors/krisha:/bin/bash
+rabtha:x:9387:9388:Thapaliya, Rabindra+221294:/home/STUDENTS/majors/rabtha:/bin/bash
+ashlkee1:x:9388:9389:Keenan, Ashley Lynn+197712:/home/STUDENTS/majors/ashlkee1:/bin/bash
+johglyl:x:9389:9390:Lyle, Johnathan G+207906:/home/STUDENTS/majors/johglyl:/bin/bash
+davlpal1:x:9390:9391:Palmer, David LC+218041:/home/STUDENTS/majors/davlpal1:/bin/bash
+prakbas:x:9391:9392:Basnet, Prabesh Kumar+219281:/home/STUDENTS/majors/prakbas:/bin/bash
+aispra:x:9392:9393:Pradhan, Aishworya+221238:/home/STUDENTS/majors/aispra:/bin/bash
+mankad:x:9393:9394:Kadayat, Manish+221410:/home/STUDENTS/majors/mankad:/bin/bash
+kamkan:x:9394:9395:Kandel, Kamal+220599:/home/STUDENTS/majors/kamkan:/bin/bash
+sandah:x:9395:9396:Dahal, Sandesh+221269:/home/STUDENTS/majors/sandah:/bin/bash
+surtha:x:9396:9397:Thakur, Suresh+220980:/home/STUDENTS/majors/surtha:/bin/bash
+aaldul:x:9397:9398:Dulal, Aalap+220301:/home/STUDENTS/majors/aaldul:/bin/bash
+surbud1:x:9398:9399:Budhathoki, Suresh+221263:/home/STUDENTS/majors/surbud1:/bin/bash
+sanlam:x:9399:9400:Lama, Sandesh+221223:/home/STUDENTS/majors/sanlam:/bin/bash
+analam:x:9400:9401:Lamsal, Ananda+221115:/home/STUDENTS/majors/analam:/bin/bash
+alimah1:x:9401:9402:Maharjan, Alice+221591:/home/STUDENTS/majors/alimah1:/bin/bash
+sisghi:x:9402:9403:Ghimire, Sisam+221155:/home/STUDENTS/majors/sisghi:/bin/bash
+ankach:x:9403:9404:Acharya, Ankit+221264:/home/STUDENTS/majors/ankach:/bin/bash
+pawsha1:x:9405:9406:Sharma, Pawan+221121:/home/STUDENTS/majors/pawsha1:/bin/bash
+rajtim:x:9407:9408:Timilsina, Rajesh+221224:/home/STUDENTS/majors/rajtim:/bin/bash
+rohrau:x:9408:9409:Rauniyair, Rohit+221259:/home/STUDENTS/majors/rohrau:/bin/bash
+sumpok:x:9409:9410:Pokharel, Sumanshu+220991:/home/STUDENTS/majors/sumpok:/bin/bash
+safkha:x:9410:9411:Khanal, Safal+221285:/home/STUDENTS/majors/safkha:/bin/bash
+mindshe:x:9411:9412:Sherpa, Mingma Dorjee+221306:/home/STUDENTS/majors/mindshe:/bin/bash
+tyljkei:x:9412:9413:Keith, Tyler James_Thomas+218701:/home/STUDENTS/majors/tyljkei:/bin/bash
+rabsphu:x:9413:9414:Phuyal, Rabin Sharma+221467:/home/STUDENTS/majors/rabsphu:/bin/bash
+wontshe:x:9414:9415:Sherpa, Wong Tshering+221325:/home/STUDENTS/majors/wontshe:/bin/bash
+niltam:x:9415:9416:Tamrakar, Nilesh+221183:/home/STUDENTS/majors/niltam:/bin/bash
+yujdha:x:9416:9417:Dhakal, Yujan+221026:/home/STUDENTS/majors/yujdha:/bin/bash
+jusmdav:x:9417:9418:David, Justus Mulinge+221418:/home/STUDENTS/majors/jusmdav:/bin/bash
+rojlari:x:9418:9419:Arinze, Rojay Luke+211861:/home/STUDENTS/majors/rojlari:/bin/bash
+chapel:x:9419:9420:Pelas, Chaz Alexander+194230:/home/STUDENTS/majors/chapel:/bin/bash
+sagpok1:x:9422:9423:Pokhrel, Sagar+221166:/home/STUDENTS/majors/sagpok1:/bin/bash
+karghi:x:9424:9425:Ghimire, Karun+220825:/home/STUDENTS/majors/karghi:/bin/bash
+samtul:x:9425:9426:Tuladhar, Sampurna_Man+221505:/home/STUDENTS/majors/samtul:/bin/bash
+ashthou:x:9426:9427:Houchin, Ashley Taylor+214278:/home/STUDENTS/majors/ashthou:/bin/bash
+chiray:x:9428:9429:Rayamajhi, Chiran+219014:/home/STUDENTS/majors/chiray:/bin/bash
+mktesting:x:9429:9430:MK Testing:/home/faculty/mktesting:/bin/bash
+vufimtsev:x:9430:9431:Vladimir Ufimtsev:/home/faculty/vufimtsev:/bin/bash
+mpelosi:x:9431:9432:Michael Pelosi:/home/faculty/mpelosi:/bin/bash
+viccha:x:9432:9433:Chauhan, Victor+221319:/home/STUDENTS/majors/viccha:/bin/bash
+chawtil:x:9433:9434:Tillar, Chase Wayne+207031:/home/STUDENTS/nonmajors/chawtil:/bin/bash
+jocarod:x:9434:9435:Rodriguez, Jocelyn Amayrani+227983:/home/STUDENTS/majors/jocarod:/bin/bash
+gaubtam:x:9435:9436:Tamrakar, Gaurav Bir_Singh+223112:/home/STUDENTS/majors/gaubtam:/bin/bash
+krikaf:x:9436:9437:Kafle, Kritartha+222579:/home/STUDENTS/majors/krikaf:/bin/bash
+latdfor1:x:9437:9438:Ford, LaTisha Dawn_May+186324:/home/STUDENTS/majors/latdfor1:/bin/bash
+gerajoh:x:9438:9439:Johnson, Gerrard Antonio+217135:/home/STUDENTS/majors/gerajoh:/bin/bash
+ashlui:x:9439:9440:Luitel, Ashik+221759:/home/STUDENTS/majors/ashlui:/bin/bash
+aarmyou:x:9440:9441:Young, Aaron Micahel+222705:/home/STUDENTS/nonmajors/aarmyou:/bin/bash
+prakha1:x:9441:9442:Khadka, Pranisha+221970:/home/STUDENTS/majors/prakha1:/bin/bash
+rajsha1:x:9442:9443:Sharma, Rajan+222060:/home/STUDENTS/majors/rajsha1:/bin/bash
+prakaf:x:9443:9444:Kafle, Prakash+222116:/home/STUDENTS/majors/prakaf:/bin/bash
+susshr:x:9444:9445:Shrestha, Susongsha+221748:/home/STUDENTS/majors/susshr:/bin/bash
+danacam:x:9445:9446:Camarillo, Daniel Arturo+227890:/home/STUDENTS/nonmajors/danacam:/bin/bash
+madkaf:x:9446:9447:Kafle, Madan+222068:/home/STUDENTS/majors/madkaf:/bin/bash
+ujiadh:x:9447:9448:Adhikari, Ujit+222590:/home/STUDENTS/majors/ujiadh:/bin/bash
+chrbhen:x:9448:9449:Henry, Christopher Bouine+219604:/home/STUDENTS/nonmajors/chrbhen:/bin/bash
+skyclof:x:9449:9450:Lofton, Skylar Chance+218752:/home/STUDENTS/majors/skyclof:/bin/bash
+sungup1:x:9450:9451:Gupta, Sunny+223084:/home/STUDENTS/majors/sungup1:/bin/bash
+guntha:x:9451:9452:Thapa, Gunjan+222591:/home/STUDENTS/majors/guntha:/bin/bash
+mictod:x:9452:9453:Todd, Michael+222224:/home/STUDENTS/majors/mictod:/bin/bash
+rabpan:x:9453:9454:Pant, Rabin+221964:/home/STUDENTS/majors/rabpan:/bin/bash
+dinbhu:x:9454:9455:Bhusal, Dinesh+222115:/home/STUDENTS/nonmajors/dinbhu:/bin/bash
+cladhen:x:9455:9456:Henry, Clayton Dee+215669:/home/STUDENTS/nonmajors/cladhen:/bin/bash
+ashnep:x:9456:9457:Nepal, Ashim+221318:/home/STUDENTS/majors/ashnep:/bin/bash
+stetou:x:9457:9458:Touchstone, Steven G+169307:/home/STUDENTS/majors/stetou:/bin/bash
+briclof:x:9458:9459:Lofton, Brittany Cheyenne+222096:/home/STUDENTS/nonmajors/briclof:/bin/bash
+baycmas:x:9459:9460:Mason, Bayley Cheyenne+230377:/home/STUDENTS/majors/baycmas:/bin/bash
+jimdmar1:x:9460:9461:Marsh, Jimmy Dustin+214804:/home/STUDENTS/nonmajors/jimdmar1:/bin/bash
+mukkaf:x:9461:9462:Kafle, Mukesh+222599:/home/STUDENTS/majors/mukkaf:/bin/bash
+ginrjoh2:x:9462:9463:Johnson, Ginger Rachelle+222378:/home/STUDENTS/nonmajors/ginrjoh2:/bin/bash
+kelcsla:x:9463:9464:Slaughter, Kelton C+209802:/home/STUDENTS/nonmajors/kelcsla:/bin/bash
+kenalar:x:9464:9465:Larsh, Kenneth Alan+220035:/home/STUDENTS/nonmajors/kenalar:/bin/bash
+andlsmi3:x:9465:9466:Smith, Andrew Lane+222004:/home/STUDENTS/majors/andlsmi3:/bin/bash
+hmount:x:9466:9467:Mount, Houston Faust+190262:/home/STUDENTS/nonmajors/hmount:/bin/bash
+setnsta:x:9467:9468:States, Seth Neil+219526:/home/STUDENTS/nonmajors/setnsta:/bin/bash
+johrbro:x:9468:9469:Brown, John Richard+222500:/home/STUDENTS/majors/johrbro:/bin/bash
+jacmhol:x:9469:9470:Holland, Jacob Macale+219508:/home/STUDENTS/nonmajors/jacmhol:/bin/bash
+bigadh:x:9470:9471:Adhikari, Bigyan+222088:/home/STUDENTS/majors/bigadh:/bin/bash
+samaswe:x:9471:9472:Sweetman, Sam Anthony+221946:/home/STUDENTS/majors/samaswe:/bin/bash
+sonshe:x:9472:9473:Sherpa, Sonam_Norke+222271:/home/STUDENTS/majors/sonshe:/bin/bash
+hayaswo:x:9473:9474:Swope, Hayden Andrew+222473:/home/STUDENTS/majors/hayaswo:/bin/bash
+sahshr:x:9474:9475:Shrestha, Sahaj+222079:/home/STUDENTS/majors/sahshr:/bin/bash
+derslin:x:9475:9476:Linthicum, Derek Scott+226112:/home/STUDENTS/majors/derslin:/bin/bash
+sunkaf:x:9476:9477:Kafle, Sundar+222075:/home/STUDENTS/nonmajors/sunkaf:/bin/bash
+jawshr:x:9477:9478:Shrestha, Jawa+222584:/home/STUDENTS/majors/jawshr:/bin/bash
+bisban:x:9478:9479:Baniya, Bishal+222206:/home/STUDENTS/majors/bisban:/bin/bash
+samneu:x:9479:9480:Neupane, Samita+222974:/home/STUDENTS/majors/samneu:/bin/bash
+sadadh:x:9480:9481:Adhikari, Sadikshya+221599:/home/STUDENTS/majors/sadadh:/bin/bash
+dylebat:x:9481:9482:Batungbacal, Dylan Edward+227830:/home/STUDENTS/majors/dylebat:/bin/bash
+sudlam:x:9482:9483:Lamichhane, Sudip+222951:/home/STUDENTS/majors/sudlam:/bin/bash
+sankha2:x:9483:9484:Khanal, Sandesh+221741:/home/STUDENTS/majors/sankha2:/bin/bash
+codsmer:x:9484:9485:Mercer, Cody Shane+206733:/home/STUDENTS/nonmajors/codsmer:/bin/bash
+chagur:x:9485:9486:Gurung, Chandan+223085:/home/STUDENTS/majors/chagur:/bin/bash
+sebosab:x:9486:9487:Sabisch, Sebastian Otto+222304:/home/STUDENTS/majors/sebosab:/bin/bash
+domlsim:x:9487:9488:Simonson, Dominick Lee+215181:/home/STUDENTS/nonmajors/domlsim:/bin/bash
+keirfer:x:9488:9489:Ferguson, Keith Robert+218621:/home/STUDENTS/nonmajors/keirfer:/bin/bash
+achsub:x:9489:9490:Subedi, Achyut+222636:/home/STUDENTS/majors/achsub:/bin/bash
+katdgra:x:9490:9491:Gragg, Kathryn Daun+218968:/home/STUDENTS/majors/katdgra:/bin/bash
+kamgir:x:9491:9492:Giri, Kamal+221315:/home/STUDENTS/majors/kamgir:/bin/bash
+caldmos:x:9492:9493:Moss, Caleb Dakota+220766:/home/STUDENTS/majors/caldmos:/bin/bash
+rubpha:x:9493:9494:Phaiju, Rubesh+222906:/home/STUDENTS/majors/rubpha:/bin/bash
+brelcra:x:9494:9495:Crawford, Breecia Leeanne+215585:/home/STUDENTS/nonmajors/brelcra:/bin/bash
+sarsan:x:9495:9496:Sanjel, Sarina+222114:/home/STUDENTS/majors/sarsan:/bin/bash
+lamtdin:x:9496:9497:Dinh, Lam Tung+208362:/home/STUDENTS/majors/lamtdin:/bin/bash
+garmwat:x:9497:9498:Watkins, Garyn McDonald+227756:/home/STUDENTS/majors/garmwat:/bin/bash
+monsha:x:9498:9499:Sharma, Monika+221729:/home/STUDENTS/nonmajors/monsha:/bin/bash
+bibman:x:9499:9500:Manandhar, Bibek+222442:/home/STUDENTS/majors/bibman:/bin/bash
+anipok:x:9500:9501:Pokharel, Anish+222082:/home/STUDENTS/majors/anipok:/bin/bash
+jestul:x:9501:9502:Tuladhar, Jesphar+223005:/home/STUDENTS/majors/jestul:/bin/bash
+zaclsim:x:9502:9503:Simpson, Zachariah Lucas+221669:/home/STUDENTS/nonmajors/zaclsim:/bin/bash
+hempan:x:9503:9504:Pant, Hemanta+222120:/home/STUDENTS/majors/hempan:/bin/bash
+avelog:x:9504:9505:Logan, Avery+223303:/home/STUDENTS/majors/avelog:/bin/bash
+coddfra:x:9505:9506:Franks, Cody Dewayne+221749:/home/STUDENTS/nonmajors/coddfra:/bin/bash
+brarapa:x:9506:9507:Apala, Brandon Robert+214784:/home/STUDENTS/nonmajors/brarapa:/bin/bash
+wadamil:x:9507:9508:Miller, Wade A+222364:/home/STUDENTS/majors/wadamil:/bin/bash
+simlam:x:9508:9509:Lama, Simrika+222886:/home/STUDENTS/majors/simlam:/bin/bash
+emigwil:x:9509:9510:Williams, Emily Grace+209931:/home/STUDENTS/nonmajors/emigwil:/bin/bash
+krigir:x:9510:9511:Giree, Kritika+222071:/home/STUDENTS/majors/krigir:/bin/bash
+reiakin:x:9511:9512:Kinder, Reid A+215584:/home/STUDENTS/nonmajors/reiakin:/bin/bash
+sakbaj:x:9512:9513:Bajagain, Sakar+222443:/home/STUDENTS/majors/sakbaj:/bin/bash
+natbpul:x:9513:9514:Pulliam, Nathaniel B+228000:/home/STUDENTS/nonmajors/natbpul:/bin/bash
+passhe:x:9514:9515:Sherpa, Pasang+223217:/home/STUDENTS/majors/passhe:/bin/bash
+shiach:x:9515:9516:Acharya, Shishir+222077:/home/STUDENTS/majors/shiach:/bin/bash
+evabpoo:x:9516:9517:Pool, Evan Blake+216970:/home/STUDENTS/nonmajors/evabpoo:/bin/bash
+ambrbou:x:9517:9518:Bounds, Amber Rachelle+216106:/home/STUDENTS/nonmajors/ambrbou:/bin/bash
+mankha3:x:9518:9519:Khadka, Manoj+223164:/home/STUDENTS/majors/mankha3:/bin/bash
+sanpra:x:9519:9520:Pradhan, Santosh+221757:/home/STUDENTS/majors/sanpra:/bin/bash
+davarat:x:9520:9521:Ratliff, David A+222817:/home/STUDENTS/majors/davarat:/bin/bash
+bilwand:x:9521:9522:Andrew, Billy W+222346:/home/STUDENTS/nonmajors/bilwand:/bin/bash
+mordmcd:x:9522:9523:McDaniel, Morgan D'Nell+220881:/home/STUDENTS/majors/mordmcd:/bin/bash
+calesta:x:9523:9524:Stallcup, Caleb Evan+220781:/home/STUDENTS/nonmajors/calesta:/bin/bash
+ricdhal:x:9524:9525:Hall, Richard David+215019:/home/STUDENTS/nonmajors/ricdhal:/bin/bash
+bradstr:x:9525:9526:Stricker, Braydon D+217696:/home/STUDENTS/nonmajors/bradstr:/bin/bash
+rebshr:x:9526:9527:Shrestha, Rebecca+222755:/home/STUDENTS/majors/rebshr:/bin/bash
+krikcla:x:9527:9528:Clarke, Kristine Kathyrn+210361:/home/STUDENTS/nonmajors/krikcla:/bin/bash
+dylssan:x:9528:9529:Sanchez, Dylan Steve+219647:/home/STUDENTS/majors/dylssan:/bin/bash
+tanlsmi1:x:9529:9530:Smith, Tanner Lee+221825:/home/STUDENTS/majors/tanlsmi1:/bin/bash
+codweb:x:9530:9531:Webb, Cody+219223:/home/STUDENTS/majors/codweb:/bin/bash
+roblcle:x:9531:9532:Clemmer, Robert Lee+223191:/home/STUDENTS/majors/roblcle:/bin/bash
+rajgup:x:9532:9533:Gupta, Rajan+223083:/home/STUDENTS/majors/rajgup:/bin/bash
+bijach:x:9533:9534:Acharya, Bijay+222446:/home/STUDENTS/majors/bijach:/bin/bash
+deemah:x:9534:9535:Maharjan, Deebika+223169:/home/STUDENTS/majors/deemah:/bin/bash
+asighi:x:9535:9536:Ghimire, Asish+222623:/home/STUDENTS/majors/asighi:/bin/bash
+sadkar:x:9536:9537:Karki, Sadikchya+222397:/home/STUDENTS/majors/sadkar:/bin/bash
+riwgya:x:9537:9538:Gyawali, Riwaz+222085:/home/STUDENTS/majors/riwgya:/bin/bash
+ashmryc:x:9538:9539:Rycroft, Ashton Montana+209999:/home/STUDENTS/nonmajors/ashmryc:/bin/bash
+kaljclo:x:9539:9540:Cloutier, Kali Janae+201942:/home/STUDENTS/majors/kaljclo:/bin/bash
+garbwho:x:9540:9541:Whorton, Garrett B+222879:/home/STUDENTS/nonmajors/garbwho:/bin/bash
+lukshr:x:9541:9542:Shrestha, Lukash+223195:/home/STUDENTS/majors/lukshr:/bin/bash
+stamah1:x:9542:9543:Mahlatini, Standokuhle+217556:/home/STUDENTS/nonmajors/stamah1:/bin/bash
+sagpok2:x:9543:9544:Pokhrel, Sagaurav+221747:/home/STUDENTS/majors/sagpok2:/bin/bash
+bidsub:x:9544:9545:Subedi, Bidhan+222955:/home/STUDENTS/majors/bidsub:/bin/bash
+jusmcol:x:9545:9546:Colbert, Justus Michael+209685:/home/STUDENTS/majors/jusmcol:/bin/bash
+ashmpag:x:9546:9547:Page, Ashli M+222469:/home/STUDENTS/majors/ashmpag:/bin/bash
+sanksah:x:9547:9548:Sah, Sanjay Kumar+221926:/home/STUDENTS/majors/sanksah:/bin/bash
+xiahua:x:9548:9549:Huang, Xiaolin+214481:/home/STUDENTS/nonmajors/xiahua:/bin/bash
+vanrhil:x:9549:9550:Hilton, Vanessa Renee_Alexandra+222361:/home/STUDENTS/nonmajors/vanrhil:/bin/bash
+gardkno:x:9550:9551:Knoles, Garey D+220562:/home/STUDENTS/nonmajors/gardkno:/bin/bash
+anakmen:x:9551:9552:Mendez-Cuenca, Ana Karen+211591:/home/STUDENTS/nonmajors/anakmen:/bin/bash
+anwmbai:x:9552:9553:Baisyat, Anwesh Man+222930:/home/STUDENTS/majors/anwmbai:/bin/bash
+ankary:x:9553:9554:Aryal, Ankit+221286:/home/STUDENTS/majors/ankary:/bin/bash
+kriacas:x:9554:9555:Castellanos, Kristian Alexander+210200:/home/STUDENTS/nonmajors/kriacas:/bin/bash
+trecber:x:9555:9556:Berg, Trevor Cole+217069:/home/STUDENTS/nonmajors/trecber:/bin/bash
+jacbbai:x:9556:9557:Bailey, Jacab Bradley+222282:/home/STUDENTS/nonmajors/jacbbai:/bin/bash
+rajneu:x:9557:9558:Neupane, Rajeev+221967:/home/STUDENTS/majors/rajneu:/bin/bash
+pracha:x:9558:9559:Chaurasiya, Pravakar+222400:/home/STUDENTS/majors/pracha:/bin/bash
+danccre:x:9559:9560:Creech, Daniel Colin+221663:/home/STUDENTS/nonmajors/danccre:/bin/bash
+sagkdar:x:9560:9561:Darnal, Sagar Kumar+222424:/home/STUDENTS/majors/sagkdar:/bin/bash
+kargha:x:9561:9562:Ghale, Karma_Namgyal+222018:/home/STUDENTS/majors/kargha:/bin/bash
+stamdem:x:9562:9563:Demings, Starla Marie+222836:/home/STUDENTS/nonmajors/stamdem:/bin/bash
+roscha:x:9563:9564:Chand, Roshan+222811:/home/STUDENTS/majors/roscha:/bin/bash
+tylwwil:x:9564:9565:Wilkins, Tyler Wade+221507:/home/STUDENTS/majors/tylwwil:/bin/bash
+budband:x:9565:9566:Andrews, Buddy Briten+220782:/home/STUDENTS/majors/budband:/bin/bash
+zanhter:x:9566:9567:Ter Wee, Zane Hamlin+214365:/home/STUDENTS/nonmajors/zanhter:/bin/bash
+bibpok:x:9567:9568:Pokharel, Bibek+222901:/home/STUDENTS/majors/bibpok:/bin/bash
+sabmad:x:9568:9569:Madhikarmi, Sabin+222802:/home/STUDENTS/majors/sabmad:/bin/bash
+sarpou:x:9569:9570:Poudel, Sarad+223173:/home/STUDENTS/majors/sarpou:/bin/bash
+patledw:x:9570:9571:Edwards, Patric Laroyce+230378:/home/STUDENTS/nonmajors/patledw:/bin/bash
+jigrshe:x:9571:9572:Sherpa, Jigme Rinji+223106:/home/STUDENTS/majors/jigrshe:/bin/bash
+rompan:x:9572:9573:Pandey, Romie+222209:/home/STUDENTS/majors/rompan:/bin/bash
+dhiham:x:9573:9574:Hamal, Dhirendra+222741:/home/STUDENTS/majors/dhiham:/bin/bash
+mahsap:x:9574:9575:Sapkota, Mahesh+222624:/home/STUDENTS/majors/mahsap:/bin/bash
+jelkim:x:9575:9576:Kimaiyo, Jelagat+207586:/home/STUDENTS/nonmajors/jelkim:/bin/bash
+zacksmi:x:9576:9577:Smith, Zachery Kane+214568:/home/STUDENTS/majors/zacksmi:/bin/bash
+ayurai:x:9577:9578:Rai, Ayub+222916:/home/STUDENTS/majors/ayurai:/bin/bash
+rakadh:x:9578:9579:Adhikari, Rakshyak+222633:/home/STUDENTS/majors/rakadh:/bin/bash
+poopok:x:9579:9580:Pokharel, Poojan+222317:/home/STUDENTS/majors/poopok:/bin/bash
+keskar:x:9580:9581:Karki, Keshav+221156:/home/STUDENTS/nonmajors/keskar:/bin/bash
+noetam:x:9581:9582:Tamang, Noel+219360:/home/STUDENTS/majors/noetam:/bin/bash
+aleawa:x:9582:9583:Awale, Alex+222213:/home/STUDENTS/majors/aleawa:/bin/bash
+bibrij:x:9583:9584:Rijal, Bibek+228358:/home/STUDENTS/majors/bibrij:/bin/bash
+saitmag:x:9584:9585:Magar, Saileshh Thapa+221225:/home/STUDENTS/majors/saitmag:/bin/bash
+samlui:x:9585:9586:Luitel, Samir+221144:/home/STUDENTS/majors/samlui:/bin/bash
+dylmpee:x:9586:9587:Peet, Dylan Mychal+215861:/home/STUDENTS/majors/dylmpee:/bin/bash
+brilbig:x:9587:9588:Bigelow, Brian Lee+208472:/home/STUDENTS/nonmajors/brilbig:/bin/bash
+aryrij:x:9588:9589:Rijal, Aryan+228287:/home/STUDENTS/majors/aryrij:/bin/bash
+chaphu:x:9589:9590:Phuyal, Chandra_Banshi+223101:/home/STUDENTS/majors/chaphu:/bin/bash
+ashbha:x:9590:9591:Bhandari, Ashish+222563:/home/STUDENTS/majors/ashbha:/bin/bash
+matsbai:x:9591:9592:Bailey, Matthew Scott+174869:/home/STUDENTS/majors/matsbai:/bin/bash
+valtshi:x:9592:9593:Shitang, Valentine Tancho+221469:/home/STUDENTS/majors/valtshi:/bin/bash
+samkkc:x:9593:9594:KC, Samrat Kumar+228878:/home/STUDENTS/majors/samkkc:/bin/bash
