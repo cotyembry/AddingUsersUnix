@@ -1,5 +1,6 @@
-#!/bin/bash
-#/usr/local/bin/bash
+#!/usr/local/bin/bash
+#/bin/bash
+
 
 
 #Author:	John Coty Embry
