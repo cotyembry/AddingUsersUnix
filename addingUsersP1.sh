@@ -25,7 +25,9 @@
 
 #now I need to get the 4 variable values for each line in the new_users.txt file
 
-echo -n '' > added_users.txt #to clear the file out
+echo -n '' > /home/faculty/mkt/unix_admin/EMBRY_JOHN/added_users.txt #added_users.txt #to clear the file out
+
+mkdir -p /home/faculty/mkt/unix_admin/EMBRY_JOHN #make the directory if it doesn't exist already
 
 (
 while read line; do
@@ -36,7 +38,7 @@ while read line; do
 	GECOS=$(echo $line | cut -d ':' -f5)
 	homedir=$(echo $line | cut -d ':' -f6)
 
-	echo "useradd -md $homedir -c \"${GECOS}\" -s /user/local/bin/bash -k /home/csadmin/SKEL $username" >> added_users.txt
+	echo "useradd -md $homedir -c \"${GECOS}\" -s /user/local/bin/bash -k /home/csadmin/SKEL $username" >> /home/faculty/mkt/unix_admin/EMBRY_JOHN/added_users.txt #added_users.txt
 
 
 done
