@@ -1,4 +1,3 @@
-
 CMPSC 1113  01|brarapa|Apala, Brandon Robert|214784|0352|    
 CMPSC 1113  01|aleawa|Awale, Alex|222213|0510|    
 CMPSC 1113  01|brilbig|Bigelow, Brian Lee|208472|0075|0352
