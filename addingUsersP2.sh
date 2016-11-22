@@ -30,6 +30,8 @@ shellDirectory='/user/local/bin/bash'
 #before starting, I will clear out the file then later I will just append to the file
 echo -n '' > new_users.txt #-n means do not include a newline at the end
 
+mkdir -p /home/faculty/mkt/unix_admin/EMBRY_JOHN #make the directory if it doesn't exist already
+
 (
 	while read line; do
 			
@@ -93,16 +95,16 @@ echo -n '' > new_users.txt #-n means do not include a newline at the end
 					doNotCreateUser=1
 				fi
 			done
-		) < passwd.txt
+		) < /etc/passwd #passwd.txt
 
 
 
 
 		#also make sure to skip empty lines in the file
 		if [ "$emptyLineFlag" == "0" ]; then
-			if [ "$doNotCreateUser" == 0  ]; then
+			if [ "$doNotCreateUser" == "0" ]; then
 				#see if the major code of this person is a Computer Science major
-				if [ "$majorCode" == "$majorCodeForComputerScience"  ]; then
+				if [ "$majorCode" == "$majorCodeForComputerScience" ]; then
 					#the format for the line to output is
 					#username:password:uid:gid:GECOS:homedir:shell
 					# echo $fullname $majorDirectory
@@ -120,4 +122,4 @@ echo -n '' > new_users.txt #-n means do not include a newline at the end
 			fi
 		fi		
 	done
-) < cs_roster.txt
+) < /home/faculty/mkt/unix_admin/cs_roster.txt #cs_roster.txt
