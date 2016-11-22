@@ -6,6 +6,14 @@
 #Author:	John Coty Embry
 #  Date:	11-10-2016
 
+
+#Dependencies:
+#	3 files:	/home/faculty/mkt/cs_roster.txt
+#				/home/faculty/mkt/active_cs.txt,
+#			 	/etc/passwd
+
+
+
 #-------
 #Name Changes 
 #Note: May include both username and GECOS field modifications
@@ -29,6 +37,7 @@ while read line; do
 	fullname=$(echo $line | cut -d ':' -f2)
 	username=$(echo $line | cut -d ':' -f1)
 	etcCurrentDirectory=''
+	
 
 	#echo "usermod -l newUsername oldUsername"
 	#usermod –c “User for transfer files” transfer_user
@@ -39,7 +48,7 @@ while read line; do
 			userFullName=$(echo $line2 | cut -d ':' -f5 | cut -d '+' -f1)
 			userECUId=$(echo $line2 | cut -d ':' -f5 | cut -d '+' -f2)
 			etcUsername=$(echo $line2 | cut -d ':' -f1)
-			
+
 			if [ "$ecuid" == "$userECUId" ]; then
 				userAlreadyExisted=1
 				#now that I have located the user in the file, time to see if the name has changed
@@ -47,13 +56,13 @@ while read line; do
 					#if here then the users full name has changed and needs to be updated
 					#here I will assume that the active_cs.txt file has the sayso on which
 					#name is more current so I will use the full name from the active_cs.txt file
-					echo "usermod -c \"${fullname}+${ecuid}\""
+					echo "usermod -c \"${fullname}+${ecuid}\"" >> modified_users.txt
 				fi
 
-				#now see if their user id has changed
+				#now see if their username has changed
 				if [ "$username" != "$etcUsername" ]; then
 					#the username has changed and needs to be updated
-					echo "usermod -l $username  $etcUsername"
+					echo "usermod -l $username $etcUsername" >> modified_users.txt
 				fi
 
 				#also I need to account for:
@@ -77,35 +86,29 @@ while read line; do
 							fi
 						fi
 					done
-				) < cs_roster.txt
+				) < /home/faculty/mkt/cs_roster.txt #change this to point to /home/faculty/mkt/cs_roster.txt after done with the assignment
 
 
 				#awesome, I have flags now to tell me if the student is a major or not
 				#now to use them
-				if [ "$isMajor" == "1" ]; then
-					etcCurrentDirectory=$(echo $line2 | cut -d ':' -f5 | cut -d '/' -f4)
+				etcCurrentDirectory=$(echo $line2 | cut -d ':' -f5 | cut -d '/' -f4)
+
+				if [ "$isMajor" == "1" ]; then	
 					if [ "majors" != "$etcCurrentDirectory" ]; then
 						#if they are a major but their current directory is not in the majors directory
-					
-
-						#todo, finish this
-					
-
+						#I need to change their directory
+						#the -m moves the content of their home directory also
+						echo "usermod -m -d /home/STUDENTS/majors/${username}" >> modified_users.txt
 					fi
-
-
-					#the username has changed and needs to be updated
-					# echo "usermod -l $username  $etcUsername"
 				elif [ "$isMajor" == "0" ]; then
-					
-
-					#todo, finish this
-
-
+					if [ "majors" == "$etcCurrentDirectory" ]; then
+						#if the student is not a major and they have the majors directory, they need to be moved to the nonmajors directory
+						echo "usermod -m -d /home/STUDENTS/nonmajors/${username}" >> modified_users.txt
+					fi
 				fi
 			fi
 		done
-	) < ./etc/passwd
+	) < /etc/passwd #change this to point to /etc/passwd after done with the assignment
 
 
 
@@ -117,5 +120,5 @@ while read line; do
 
 
 done
-) < active_cs.txt
+) < /home/faculty/mkt/active_cs.txt #change this to point to /home/faculty/mkt/active_cs.txt after done with the assignment
 
