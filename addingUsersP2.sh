@@ -49,6 +49,7 @@ echo -n '' > new_users.txt #-n means do not include a newline at the end
 		ecuid=$(echo $line | cut -d '|' -f4)
 		GECOS=${fullname}+${ecuid}
 		majorCode=$(echo $line | cut -d '|' -f5)
+		secondMajorCode=$(echo $line | cut -d '|' -f6)
 		coursePrefix=$(echo $line | cut -d '|' -f1 | cut -d ' ' -f1)
 		courseNumber=$(echo $line | cut -d '|' -f1 | cut -d ' ' -f2)
 
@@ -105,6 +106,9 @@ echo -n '' > new_users.txt #-n means do not include a newline at the end
 					#the format for the line to output is
 					#username:password:uid:gid:GECOS:homedir:shell
 					# echo $fullname $majorDirectory
+					echo ${username}:${password}:${uid}:${gid}:${GECOS}:${majorDirectory}:${shellDirectory} >> new_users.txt
+				elif [  "$secondMajorCode" == "$majorCodeForComputerScience" ]; then
+					#this flow covers any students with their second major declared as computer science
 					echo ${username}:${password}:${uid}:${gid}:${GECOS}:${majorDirectory}:${shellDirectory} >> new_users.txt
 				else
 					#the format for the line to output is

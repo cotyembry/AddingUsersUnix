@@ -1,0 +1,74 @@
+useradd -md /home/STUDENTS/nonmajors -c "Apala, Brandon Robert+214784" -s /user/local/bin/bash -k /home/csadmin/SKEL brarapa
+useradd -md /home/STUDENTS/majors -c "Awale, Alex+222213" -s /user/local/bin/bash -k /home/csadmin/SKEL aleawa
+useradd -md /home/STUDENTS/nonmajors -c "Bigelow, Brian Lee+208472" -s /user/local/bin/bash -k /home/csadmin/SKEL brilbig
+useradd -md /home/STUDENTS/majors -c "Brown, John Richard+222500" -s /user/local/bin/bash -k /home/csadmin/SKEL johrbro
+useradd -md /home/STUDENTS/nonmajors -c "Clarke, Kristine Kathyrn+210361" -s /user/local/bin/bash -k /home/csadmin/SKEL krikcla
+useradd -md /home/STUDENTS/majors -c "Dinh, Lam Tung+208362" -s /user/local/bin/bash -k /home/csadmin/SKEL lamtdin
+useradd -md /home/STUDENTS/majors -c "Gragg, Kathryn Daun+218968" -s /user/local/bin/bash -k /home/csadmin/SKEL katdgra
+useradd -md /home/STUDENTS/nonmajors -c "Hall, Richard David+215019" -s /user/local/bin/bash -k /home/csadmin/SKEL ricdhal
+useradd -md /home/STUDENTS/nonmajors -c "Henry, Clayton Dee+215669" -s /user/local/bin/bash -k /home/csadmin/SKEL cladhen
+useradd -md /home/STUDENTS/nonmajors -c "Hilton, Vanessa Renee_Alexandra+222361" -s /user/local/bin/bash -k /home/csadmin/SKEL vanrhil
+useradd -md /home/STUDENTS/nonmajors -c "Huang, Xiaolin+214481" -s /user/local/bin/bash -k /home/csadmin/SKEL xiahua
+useradd -md /home/STUDENTS/majors -c "Johnson, Gerrard Antonio+217135" -s /user/local/bin/bash -k /home/csadmin/SKEL gerajoh
+useradd -md /home/STUDENTS/nonmajors -c "Karki, Keshav+221156" -s /user/local/bin/bash -k /home/csadmin/SKEL keskar
+useradd -md /home/STUDENTS/majors -c "Kimaiyo, Jelagat+207586" -s /user/local/bin/bash -k /home/csadmin/SKEL jelkim
+useradd -md /home/STUDENTS/nonmajors -c "Kinder, Reid A.+215584" -s /user/local/bin/bash -k /home/csadmin/SKEL reiakin
+useradd -md /home/STUDENTS/majors -c "Magar, Sailesh Thapa+221225" -s /user/local/bin/bash -k /home/csadmin/SKEL saitmag
+useradd -md /home/STUDENTS/majors -c "Manandhar, Bibek+222442" -s /user/local/bin/bash -k /home/csadmin/SKEL bibman
+useradd -md /home/STUDENTS/nonmajors -c "Mercer, Cody Shane+206733" -s /user/local/bin/bash -k /home/csadmin/SKEL codsmer
+useradd -md /home/STUDENTS/majors -c "Miller, Wade A+222364" -s /user/local/bin/bash -k /home/csadmin/SKEL wadamil
+useradd -md /home/STUDENTS/majors -c "Moss, Caleb Dakota+220766" -s /user/local/bin/bash -k /home/csadmin/SKEL caldmos
+useradd -md /home/STUDENTS/nonmajors -c "Mount, Houston Faust+190262" -s /user/local/bin/bash -k /home/csadmin/SKEL hmount
+useradd -md /home/STUDENTS/majors -c "Pokharel, Poojan+222317" -s /user/local/bin/bash -k /home/csadmin/SKEL poopok
+useradd -md /home/STUDENTS/majors -c "Pokharel, Sumanshu+220991" -s /user/local/bin/bash -k /home/csadmin/SKEL sumpok
+useradd -md /home/STUDENTS/nonmajors -c "Pool, Evan Blake+216970" -s /user/local/bin/bash -k /home/csadmin/SKEL evabpoo
+useradd -md /home/STUDENTS/majors -c "Rijal, Bibek+228358" -s /user/local/bin/bash -k /home/csadmin/SKEL bibrij
+useradd -md /home/STUDENTS/nonmajors -c "Rycroft, Ashton Montana+209999" -s /user/local/bin/bash -k /home/csadmin/SKEL ashmryc
+useradd -md /home/STUDENTS/majors -c "Sabisch, Sebastian Otto+222304" -s /user/local/bin/bash -k /home/csadmin/SKEL sebosab
+useradd -md /home/STUDENTS/majors -c "Sah, Sanjay Kumar+221926" -s /user/local/bin/bash -k /home/csadmin/SKEL sanksah
+useradd -md /home/STUDENTS/majors -c "Sharma, Pawan+221121" -s /user/local/bin/bash -k /home/csadmin/SKEL pawsha1
+useradd -md /home/STUDENTS/majors -c "Shrestha, Jawa+222584" -s /user/local/bin/bash -k /home/csadmin/SKEL jawshr
+useradd -md /home/STUDENTS/majors -c "Smith, Andrew Lane+222004" -s /user/local/bin/bash -k /home/csadmin/SKEL andlsmi3
+useradd -md /home/STUDENTS/majors -c "Sweetman, Sam Anthony+221946" -s /user/local/bin/bash -k /home/csadmin/SKEL samaswe
+useradd -md /home/STUDENTS/majors -c "Swope, Hayden Andrew+222473" -s /user/local/bin/bash -k /home/csadmin/SKEL hayaswo
+useradd -md /home/STUDENTS/majors -c "Tamang, Noel+219360" -s /user/local/bin/bash -k /home/csadmin/SKEL noetam
+useradd -md /home/STUDENTS/majors -c "Tamrakar, Gaurav Bir_Singh+223112" -s /user/local/bin/bash -k /home/csadmin/SKEL gaubtam
+useradd -md /home/STUDENTS/nonmajors -c "Ter Wee, Zane Hamlin+214365" -s /user/local/bin/bash -k /home/csadmin/SKEL zanhter
+useradd -md /home/STUDENTS/majors -c "Todd, Michael+222224" -s /user/local/bin/bash -k /home/csadmin/SKEL mictod
+useradd -md /home/STUDENTS/majors -c "Touchstone, Steven G+169307" -s /user/local/bin/bash -k /home/csadmin/SKEL stetou
+useradd -md /home/STUDENTS/majors -c "Watkins, Garyn McDonald+227756" -s /user/local/bin/bash -k /home/csadmin/SKEL garmwat
+useradd -md /home/STUDENTS/majors -c "Webb, Cody+219223" -s /user/local/bin/bash -k /home/csadmin/SKEL codweb
+useradd -md /home/STUDENTS/majors -c "Wilkins, Tyler Wade+221507" -s /user/local/bin/bash -k /home/csadmin/SKEL tylwwil
+useradd -md /home/STUDENTS/nonmajors -c "Young, Aaron Michael+222705" -s /user/local/bin/bash -k /home/csadmin/SKEL aarmyou
+useradd -md /home/STUDENTS/majors -c "Andrews, Buddy Briten+220782" -s /user/local/bin/bash -k /home/csadmin/SKEL budband
+useradd -md /home/STUDENTS/majors -c "Baisyat, Anwesh Man+222930" -s /user/local/bin/bash -k /home/csadmin/SKEL anwmbai
+useradd -md /home/STUDENTS/majors -c "Baniya, Bishal+222206" -s /user/local/bin/bash -k /home/csadmin/SKEL bisban
+useradd -md /home/STUDENTS/majors -c "Batungbacal, Dylan Edward+227830" -s /user/local/bin/bash -k /home/csadmin/SKEL dylebat
+useradd -md /home/STUDENTS/nonmajors -c "Berg, Trevor Cole+217069" -s /user/local/bin/bash -k /home/csadmin/SKEL trecber
+useradd -md /home/STUDENTS/majors -c "Bhandari, Ashish+222563" -s /user/local/bin/bash -k /home/csadmin/SKEL ashbha
+useradd -md /home/STUDENTS/nonmajors -c "Bounds, Amber Rachelle+216106" -s /user/local/bin/bash -k /home/csadmin/SKEL ambrbou
+useradd -md /home/STUDENTS/nonmajors -c "Castellanos, Kristian Alexander+210200" -s /user/local/bin/bash -k /home/csadmin/SKEL kriacas
+useradd -md /home/STUDENTS/majors -c "Colbert, Justus Michael+209685" -s /user/local/bin/bash -k /home/csadmin/SKEL jusmcol
+useradd -md /home/STUDENTS/nonmajors -c "Crawford, Breecia Leeanne+215585" -s /user/local/bin/bash -k /home/csadmin/SKEL brelcra
+useradd -md /home/STUDENTS/nonmajors -c "Creech, Daniel Colin+221663" -s /user/local/bin/bash -k /home/csadmin/SKEL danccre
+useradd -md /home/STUDENTS/majors -c "Darnal, Sagar Kumar+222424" -s /user/local/bin/bash -k /home/csadmin/SKEL sagkdar
+useradd -md /home/STUDENTS/nonmajors -c "Demings, Starla Marie+222836" -s /user/local/bin/bash -k /home/csadmin/SKEL stamdem
+useradd -md /home/STUDENTS/nonmajors -c "Franks, Cody Dewayne+221749" -s /user/local/bin/bash -k /home/csadmin/SKEL coddfra
+useradd -md /home/STUDENTS/nonmajors -c "Henry, Christopher Bouine+219604" -s /user/local/bin/bash -k /home/csadmin/SKEL chrbhen
+useradd -md /home/STUDENTS/nonmajors -c "Johnson, Ginger Rachelle+222378" -s /user/local/bin/bash -k /home/csadmin/SKEL ginrjoh2
+useradd -md /home/STUDENTS/majors -c "Khadka, Manoj+223164" -s /user/local/bin/bash -k /home/csadmin/SKEL mankha3
+useradd -md /home/STUDENTS/nonmajors -c "Knoles, Garey D+220562" -s /user/local/bin/bash -k /home/csadmin/SKEL gardkno
+useradd -md /home/STUDENTS/nonmajors -c "Larsh, Kenneth Alan+220035" -s /user/local/bin/bash -k /home/csadmin/SKEL kenalar
+useradd -md /home/STUDENTS/majors -c "Linthicum, Derek Scott+226112" -s /user/local/bin/bash -k /home/csadmin/SKEL derslin
+useradd -md /home/STUDENTS/nonmajors -c "Lofton, Britany Cheyenne+222096" -s /user/local/bin/bash -k /home/csadmin/SKEL briclof
+useradd -md /home/STUDENTS/majors -c "Lofton, Skylar Chance+218752" -s /user/local/bin/bash -k /home/csadmin/SKEL skyclof
+useradd -md /home/STUDENTS/majors -c "Logan, Avery+223303" -s /user/local/bin/bash -k /home/csadmin/SKEL avelog
+useradd -md /home/STUDENTS/majors -c "Luitel, Samir+221144" -s /user/local/bin/bash -k /home/csadmin/SKEL samlui
+useradd -md /home/STUDENTS/majors -c "Madhikarmi, Sabin+222802" -s /user/local/bin/bash -k /home/csadmin/SKEL sabmad
+useradd -md /home/STUDENTS/majors -c "McDaniel, Morgan D'Nell+220881" -s /user/local/bin/bash -k /home/csadmin/SKEL mordmcd
+useradd -md /home/STUDENTS/majors -c "Neupane, Samita+222974" -s /user/local/bin/bash -k /home/csadmin/SKEL samneu
+useradd -md /home/STUDENTS/majors -c "Page, Ashli M+222469" -s /user/local/bin/bash -k /home/csadmin/SKEL ashmpag
+useradd -md /home/STUDENTS/majors -c "Pandey, Romie+222209" -s /user/local/bin/bash -k /home/csadmin/SKEL rompan
+useradd -md /home/STUDENTS/majors -c "Pokharel, Bibek+222901" -s /user/local/bin/bash -k /home/csadmin/SKEL bibpok
+useradd -md /home/STUDENTS/majors -c "Pokhrel, Sagaurav+221747" -s /user/local/bin/bash -k /home/csadmin/SKEL sagpok2
+useradd -md /home/STUDENTS/majors -c "Poudel, Sarad+223173" -s /user/local/bin/bash -k /home/csadmin/SKEL sarpou
