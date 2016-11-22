@@ -11,6 +11,8 @@
 #				/home/faculty/mkt/unix_admin/active_cs.txt,
 #			 	/etc/passwd
 
+# input:	/home/faculty/mkt/unix_admin/active_cs.txt 
+#output:	./modified_users.txt
 
 
 #-------
