@@ -7,8 +7,8 @@
 
 
 #Dependencies:
-#	3 files:	/home/faculty/mkt/cs_roster.txt
-#				/home/faculty/mkt/active_cs.txt,
+#	3 files:	/home/faculty/mkt/unix_admin/cs_roster.txt
+#				/home/faculty/mkt/unix_admin/active_cs.txt,
 #			 	/etc/passwd
 
 
@@ -85,7 +85,7 @@ while read line; do
 							fi
 						fi
 					done
-				) < /home/faculty/mkt/cs_roster.txt #change this to point to /home/faculty/mkt/cs_roster.txt after done with the assignment
+				) < /home/faculty/mkt/unix_admin/cs_roster.txt #change this to point to /home/faculty/mkt/cs_roster.txt after done with the assignment
 
 
 				#awesome, I have flags now to tell me if the student is a major or not
@@ -119,5 +119,5 @@ while read line; do
 
 
 done
-) < /home/faculty/mkt/active_cs.txt #change this to point to /home/faculty/mkt/active_cs.txt after done with the assignment
+) < /home/faculty/mkt/unix_admin/active_cs.txt #change this to point to /home/faculty/mkt/active_cs.txt after done with the assignment
 
