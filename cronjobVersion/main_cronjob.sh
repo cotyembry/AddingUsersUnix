@@ -1,7 +1,8 @@
 #!/bin/bash
 #/usr/local/bin/bash
 
-
+#Author:	John Coty Embry
+#  Date:	11-10-2016
 
 
 #-------
@@ -23,5 +24,11 @@ mkdir -p /home/faculty/mkt/unix_admin/EMBRY_JOHN #make the directory if it doesn
 
 crontab -l > /home/faculty/mkt/unix_admin/EMBRY_JOHN/list_crontab.txt
 
+# Schedule execution of final script:
+# a. Edit your crontab to execute your final script based on the following schedule:
+# i. 9:15am on Tuesday, November 22nd
+# ii. Daily at 4:30pm
 
+#minute hour day month day-of-week command-line-to-execute
+#this part is done now and has been edited in my crontab file using the crontab -e command
 
