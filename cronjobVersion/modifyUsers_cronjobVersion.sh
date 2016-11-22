@@ -25,11 +25,14 @@
 #output: /home/faculty/mkt/unix_admin/LAST_FIRST/modified_users.txt
 
 
+mkdir -p /home/faculty/mkt/unix_admin/EMBRY_JOHN #make the directory if it doesn't exist already
+
+
 majorCodeForComputerScience=0510
 majorDirectory='/home/STUDENTS/majors'
 nonmajorDirectory='/home/STUDENTS/nonmajors'
 
-echo -n '' > modified_users.txt #to clear the file out
+echo -n '' > /home/faculty/mkt/unix_admin/LAST_FIRST/modified_users.txt #modified_users.txt #to clear the file out
 
 (
 while read line; do
@@ -59,13 +62,13 @@ while read line; do
 					#if here then the users full name has changed and needs to be updated
 					#here I will assume that the active_cs.txt file has the sayso on which
 					#name is more current so I will use the full name from the active_cs.txt file
-					echo "usermod -c \"${fullname}+${ecuid}\"" >> modified_users.txt
+					echo "usermod -c \"${fullname}+${ecuid}\"" >> /home/faculty/mkt/unix_admin/LAST_FIRST/modified_users.txt #modified_users.txt
 				fi
 
 				#now see if their username has changed
 				if [ "$username" != "$etcUsername" ]; then
 					#the username has changed and needs to be updated
-					echo "usermod -l $username $etcUsername" >> modified_users.txt
+					echo "usermod -l $username $etcUsername" >> /home/faculty/mkt/unix_admin/LAST_FIRST/modified_users.txt #modified_users.txt
 				fi
 
 				#also I need to account for:
@@ -101,12 +104,12 @@ while read line; do
 						#if they are a major but their current directory is not in the majors directory
 						#I need to change their directory
 						#the -m moves the content of their home directory also
-						echo "usermod -m -d /home/STUDENTS/majors/${username}" >> modified_users.txt
+						echo "usermod -m -d /home/STUDENTS/majors/${username}" >> /home/faculty/mkt/unix_admin/LAST_FIRST/modified_users.txt #modified_users.txt
 					fi
 				elif [ "$isMajor" == "0" ]; then
 					if [ "majors" == "$etcCurrentDirectory" ]; then
 						#if the student is not a major and they have the majors directory, they need to be moved to the nonmajors directory
-						echo "usermod -m -d /home/STUDENTS/nonmajors/${username}" >> modified_users.txt
+						echo "usermod -m -d /home/STUDENTS/nonmajors/${username}" >> /home/faculty/mkt/unix_admin/LAST_FIRST/modified_users.txt #modified_users.txt
 					fi
 				fi
 			fi
