@@ -3,9 +3,9 @@
 
 
 #Author:	John Coty Embry
-#Date:		11-10-2016
+#  Date:	11-10-2016
 
-#Note:		This script will delete a file in the directory that is located where this script sits on the computer that is named 'added_users.txt' and add its own contents to the file
+#  Note:	This script will delete a file in the directory that is located where this script sits on the computer that is named 'added_users.txt' and add its own contents to the file
 
 
 #-------
