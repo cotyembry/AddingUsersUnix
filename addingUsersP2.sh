@@ -9,6 +9,11 @@
 #           Date:		11-10-2016
 #Program Comment:		This script will erase and overwrite a new_users.txt file and output its own text to the new_users.txt file (or will create the new_users.txt file if it doens't exist) within the same level of the directory tree relative to where this script is ran
 
+#   Dependencies:
+#		relative to where this script sets:
+#			./cs_roster.txt,
+#			/etc/passwd
+
 
 #-------Assignment
 #Write a script that will take input from cs_roster.txt made available by the IT department and generate the new_users.txt file that is used as input for the script in Adding Users - Part 1.
@@ -30,7 +35,7 @@ shellDirectory='/user/local/bin/bash'
 #before starting, I will clear out the file then later I will just append to the file
 echo -n '' > new_users.txt #-n means do not include a newline at the end
 
-mkdir -p /home/faculty/mkt/unix_admin/EMBRY_JOHN #make the directory if it doesn't exist already
+#mkdir -p /home/faculty/mkt/unix_admin/EMBRY_JOHN #make the directory if it doesn't exist already
 
 (
 	while read line; do
@@ -122,4 +127,4 @@ mkdir -p /home/faculty/mkt/unix_admin/EMBRY_JOHN #make the directory if it doesn
 			fi
 		fi		
 	done
-) < /home/faculty/mkt/unix_admin/cs_roster.txt #cs_roster.txt
+) < cs_roster.txt #/home/faculty/mkt/unix_admin/cs_roster.txt

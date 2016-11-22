@@ -9,15 +9,9 @@
 #  Note:	This script will delete a file in the directory that is located where this script sits on the computer that is named 'added_users.txt' and add its own contents to the file
 
 
-#-------
-#Write a shell script that will generate the command to add each user. This command must include each of the following:
-#1.	Username
-#2.	GECOS
-#3.	Home directory
-#4.	Create home directory and load skeleton files from a directory /home/csadmin/SKEL
-#5.	Specify shell
-#Your Program should DISPLAY the command for each record on the screen. DO NOT attempt to actually execute the command to add the users.
-#-------
+# Adding Users – Part 1
+# Input: new_users.txt (local file)
+# Output: /home/faculty/mkt/unix_admin/LAST_FIRST/added_users.txt
 
 
 #the command should probably look like the following literally:
