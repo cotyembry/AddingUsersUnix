@@ -27,13 +27,17 @@ mkdir -p /home/faculty/mkt/unix_admin/EMBRY_JOHN #make the directory if it doesn
 (
 while read line; do
 
-
-
 	username=$(echo $line | cut -d ':' -f1)
 	GECOS=$(echo $line | cut -d ':' -f5)
+	ecuid=$(echo $line | cut -d ':' -f5 | cut -d '+' -f2)
 	homedir=$(echo $line | cut -d ':' -f6)
 
-	echo "useradd -md $homedir -c \"${GECOS}\" -s /user/local/bin/bash -k /home/csadmin/SKEL $username" >> /home/faculty/mkt/unix_admin/EMBRY_JOHN/added_users.txt #added_users.txt
+
+	lineResult=$(grep $ecuid /etc/passwd)
+	if [ "$lineResult" == "" ]; then
+		#i.e. the users id was not found in /etc/passwd
+		echo "useradd -md $homedir -c \"${GECOS}\" -s /user/local/bin/bash -k /home/csadmin/SKEL $username" >> /home/faculty/mkt/unix_admin/EMBRY_JOHN/added_users.txt #added_users.txt	
+	fi
 
 
 done
