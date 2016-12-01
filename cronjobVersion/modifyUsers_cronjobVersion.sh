@@ -62,7 +62,7 @@ while read line; do
 					#if here then the users full name has changed and needs to be updated
 					#here I will assume that the active_cs.txt file has the sayso on which
 					#name is more current so I will use the full name from the active_cs.txt file
-					echo "usermod -c \"${fullname}+${ecuid}\"" >> /home/faculty/mkt/unix_admin/EMBRY_JOHN/modified_users.txt #modified_users.txt
+					echo "usermod -c \"${fullname}+${ecuid}\" $username" >> /home/faculty/mkt/unix_admin/EMBRY_JOHN/modified_users.txt #modified_users.txt
 				fi
 
 				#now see if their username has changed
@@ -99,7 +99,6 @@ while read line; do
 
 				lineResult=$(grep $ecuid /home/faculty/mkt/unix_admin/cs_roster.txt)
 				if [ "$lineResult" != "" ]; then
-					echo "nice ->$lineResult"
 					#if here then this is the line I need to look at
 					majorCode=$(echo $lineResult | cut -d '|' -f5)
 					secondMajorCode=$(echo $lineResult | cut -d '|' -f6)
@@ -125,12 +124,12 @@ while read line; do
 						#if they are a major but their current directory is not in the majors directory
 						#I need to change their directory
 						#the -m moves the content of their home directory also
-						echo "usermod -m -d /home/STUDENTS/majors/${username}" >> /home/faculty/mkt/unix_admin/EMBRY_JOHN/modified_users.txt #modified_users.txt
+						echo "usermod -m -d /home/STUDENTS/majors/${username} $username" >> /home/faculty/mkt/unix_admin/EMBRY_JOHN/modified_users.txt #modified_users.txt
 					fi
 				elif [ "$isMajor" == "0" ]; then
 					if [ "majors" == "$etcCurrentDirectory" ]; then
 						#if the student is not a major and they have the majors directory, they need to be moved to the nonmajors directory
-						echo "usermod -m -d /home/STUDENTS/nonmajors/${username}" >> /home/faculty/mkt/unix_admin/EMBRY_JOHN/modified_users.txt #modified_users.txt
+						echo "usermod -m -d /home/STUDENTS/nonmajors/${username} $username" >> /home/faculty/mkt/unix_admin/EMBRY_JOHN/modified_users.txt #modified_users.txt
 					fi
 				fi
 			fi
