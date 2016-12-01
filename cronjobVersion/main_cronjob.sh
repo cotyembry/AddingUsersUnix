@@ -17,7 +17,7 @@ mkdir -p /home/faculty/mkt/unix_admin/EMBRY_JOHN #make the directory if it doesn
 
 # Execute command that will remove all files located within
 # /home/faculty/mkt/unix_admin/LAST_FIRST/
-rm -r /home/faculty/mkt/unix_admin/EMBRY_JOHN/*
+#rm -r /home/faculty/mkt/unix_admin/EMBRY_JOHN/*
 
 ./addingUsersP2_cronjobVersion.sh
 
