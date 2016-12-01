@@ -38,7 +38,8 @@ echo -n '' > /home/faculty/mkt/unix_admin/EMBRY_JOHN/modified_users.txt #modifie
 while read line; do
 
 	isMajor=0
-	userAlreadyExisted=0
+	#userAlreadyExisted=0
+	#echo "0" > ./userAlreadyExisted.txt
 	ecuid=$(echo $line | cut -d ':' -f3)
 	fullname=$(echo $line | cut -d ':' -f2)
 	username=$(echo $line | cut -d ':' -f1)
@@ -56,7 +57,9 @@ while read line; do
 			etcUsername=$(echo $line2 | cut -d ':' -f1)
 
 			if [ "$ecuid" == "$userECUId" ]; then
-				userAlreadyExisted=1
+				#userAlreadyExisted=1
+				#echo "1" > ./userAlreadyExisted.txt
+
 				#now that I have located the user in the file, time to see if the name has changed
 				if [ "$fullname" != "$userFullName" ]; then
 					#if here then the users full name has changed and needs to be updated
@@ -96,7 +99,7 @@ while read line; do
 				# 	done
 				# ) < /home/faculty/mkt/unix_admin/cs_roster.txt #change this to point to /home/faculty/mkt/cs_roster.txt after done with the assignment
 
-
+				#Next I need to see if the person is an a major or non major
 				lineResult=$(grep $ecuid /home/faculty/mkt/unix_admin/cs_roster.txt)
 				if [ "$lineResult" != "" ]; then
 					#if here then this is the line I need to look at
@@ -137,14 +140,130 @@ while read line; do
 	) < /etc/passwd #change this to point to /etc/passwd after done with the assignment
 
 
-
-	#Im done with the flow for users that already existed
-	#If I wanted to address any issues for users that didnt already exist
-	#in the etc/passwd file I could do that here
-
+	#userExistedValue=$(cat ./userAlreadyExisted.txt)
+	#if [ "$userAlreadyExisted" == "0" ]; then
+	#	echo $fullname $userExistedValue
+	#fi
 
 
 
 done
 ) < /home/faculty/mkt/unix_admin/active_cs.txt #change this to point to /home/faculty/mkt/active_cs.txt after done with the assignment
+
+
+#the above code dealt with modifying the users that were in the active_cs.txt file
+#now I need to change everyone who is not in the active_cs.txt file to have the nonmajors directory
+#(
+#	while read myLine; do
+#		userFullName=$(echo $myLine | cut -d ':' -f5 | cut -d '+' -f1)
+#		userECUId=$(echo $myLine | cut -d ':' -f5 | cut -d '+' -f2)
+#		etcUsername=$(echo $myLine | cut -d ':' -f1)
+#
+#
+#		(
+#			while read myLine2; do
+#
+#				ecuid=$(echo $line | cut -d ':' -f3)
+#				fullname=$(echo $line | cut -d ':' -f2)
+#				username=$(echo $line | cut -d ':' -f1)
+#	
+#				if [ "$ecuid" == "$userECUId" ]; then
+#					echo "1" > ./___userExists.txt
+#				fi
+#
+#
+#			done
+#		) < /home/faculty/mkt/unix_admin/active_cs.txt
+#
+#		userResult=$(cat ./___userExists.txt)
+#		if [ "$userResult" == "0" ]; then
+#			echo "$userFullName"
+#		fi
+#
+#	done
+#) < /etc/passwd #change this to point to /etc/passwd after done with the assignment
+
+
+
+#######
+
+
+
+#2 things I now need to deal with
+
+#one:	if the user is in active_cs.txt and has their home directory in nonmajors it needs to be changed to majors
+#two:	if the user is not in active_cs.txt and has their home directory in majors it needs to be changed to nonmajors
+
+
+majorsResult=$(grep STUDENTS/majors /etc/passwd)
+nonMajorsResult=$(grep STUDENTS/nonmajors/ /etc/passwd)
+
+echo  "$majorsResult" > ./majorsResult.txt
+echo  "$nonMajorsResult" > ./nonmajorsResult.txt
+
+#this first for loop makes a file that is just the majors
+#for i in $majorsResult; do
+
+#	echo "${majorsResult}" >> majorsResult.txt
+
+#done
+
+#this first for loop makes a file that is just the nonmajors
+#for i in $nonmajorsResult; do
+
+#	echo "${nonmajorsResult}" >> nonmajorsResult.txt
+
+#done
+
+#one:	if the user is in active_cs.txt and has their home directory in nonmajors it needs to be changed to majors
+
+(
+	while read myLine; do
+		ecuid=$(echo $myLine | cut -d ':' -f3)
+		fullname=$(echo $myLine | cut -d ':' -f2)
+		username=$(echo $myLine | cut -d ':' -f1)		
+	
+		grepResult=$(grep $ecuid ./majorsResult.txt | head -1)
+
+		if [ "$grepResult" == ""  ]; then
+			#if here then the users directory is in the nonmajors directory and needs to be moved to the majors directory
+			echo "usermod -m -d /home/STUDENTS/majors/${username} $username" >> /home/faculty/mkt/unix_admin/EMBRY_JOHN/modified_users.txt
+		fi
+
+
+	done
+
+) < /home/faculty/mkt/unix_admin/active_cs.txt
+
+
+#two:	if the user is not in active_cs.txt and has their home directory in majors it needs to be changed to nonmajors
+
+
+(
+	while read myLine; do
+
+		userFullName=$(echo $myLine | cut -d ':' -f5 | cut -d '+' -f1)
+		userECUId=$(echo $myLine | cut -d ':' -f5 | cut -d '+' -f2)
+		username=$(echo $myLine | cut -d ':' -f1)	
+		
+
+		
+		grepResult=$(grep $userECUId /home/faculty/mkt/unix_admin/active_cs.txt)
+
+		if [ "$grepResult" == ""  ]; then
+			#if here the user is not in the active_cs.txt file but is in majors directory			
+			echo "usermod -m -d /home/STUDENTS/nonmajors/${username} $username" >> /home/faculty/mkt/unix_admin/EMBRY_JOHN/modified_users.txt			
+		fi
+
+	done
+
+) < ./majorsResult.txt
+
+
+
+#now that I have went through both the 
+
+#cleanup the directory
+rm ./majorsResult.txt
+rm ./nonmajorsResult.txt
 
