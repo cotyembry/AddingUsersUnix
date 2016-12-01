@@ -36,7 +36,7 @@ while read line; do
 	lineResult=$(grep $ecuid /etc/passwd)
 	if [ "$lineResult" == "" ]; then
 		#i.e. the users id was not found in /etc/passwd
-		echo "useradd -md $homedir -c \"${GECOS}\" -s /user/local/bin/bash -k /home/csadmin/SKEL $username" >> /home/faculty/mkt/unix_admin/EMBRY_JOHN/added_users.txt #added_users.txt	
+		echo "useradd -md $homedir -c \"${GECOS}\" -s /usr/local/bin/bash -k /home/csadmin/SKEL $username" >> /home/faculty/mkt/unix_admin/EMBRY_JOHN/added_users.txt #added_users.txt	
 	fi
 
 
