@@ -95,18 +95,24 @@ mkdir -p /home/faculty/mkt/unix_admin/EMBRY_JOHN #make the directory if it doesn
 		#but first, one last thing needs to be checked. If the user is already in the
 		#system, then they do not need to be added
 
-		#it'd be better to go through this one time above and store the usernames in an array
-		#then I could loop through it one time in memory rather than opening the files
-		(
-			while read line2; do
-				etcUsername=$(echo $line2 | cut -d ':' -f1)
-				if [ "$etcUsername" == "$username" ]; then
-					doNotCreateUser=1
-				fi
-			done
-		) < /etc/passwd #passwd.txt
 
+		# The below code worked but it is very slow so I will change my strategy up
+		#
+		# #it'd be better to go through this one time above and store the usernames in an array
+		# #then I could loop through it one time in memory rather than opening the files
+		# (
+		# 	while read line2; do
+		# 		etcUsername=$(echo $line2 | cut -d ':' -f1)
+		# 		if [ "$etcUsername" == "$username" ]; then
+		# 			doNotCreateUser=1
+		# 		fi
+		# 	done
+		# ) < /etc/passwd #passwd.txt
 
+		lineResult=$(grep $ecuid /etc/passwd)
+		if [ "$myLine" == "" ]; then
+			doNotCreateUser=1
+		fi
 
 
 		#also make sure to skip empty lines in the file
