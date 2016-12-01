@@ -71,28 +71,49 @@ while read line; do
 					echo "usermod -l $username $etcUsername" >> /home/faculty/mkt/unix_admin/LAST_FIRST/modified_users.txt #modified_users.txt
 				fi
 
-				#also I need to account for:
-				#May include changing to or from Computer Science major and should result in appropriate placement of home directory
-				#I have to do the next while loop to see if the person is an a major or non major
-				(
-					while read line3; do
-						csRosterUserId=$(echo $line3 | cut -d '|' -f4)
-						majorCode=$(echo $line3 | cut -d '|' -f5)
-						secondMajorCode=$(echo $line3 | cut -d '|' -f6)
-						
-						if [ "$ecuid" == "$csRosterUserId" ]; then
-							#now that I've found the person in this file, time to compare and see if this student is a major or nonmajor
-							if [ "$majorCode" == "$majorCodeForComputerScience" ]; then
-								isMajor=1
-							elif [ "$secondMajorCode" == "$majorCodeForComputerScience" ]; then
-								isMajor=1
-							else
-								#if they dont have the major code declared in the major or secondary major parts then their directory needs to be /home/STUDENTS/nonmajors/
-								isMajor=0
-							fi
-						fi
-					done
-				) < /home/faculty/mkt/unix_admin/cs_roster.txt #change this to point to /home/faculty/mkt/cs_roster.txt after done with the assignment
+
+				# To make this faster I will change the following block by using grep
+				# #also I need to account for:
+				# #May include changing to or from Computer Science major and should result in appropriate placement of home directory
+				# #I have to do the next while loop to see if the person is an a major or non major
+				# (
+				# 	while read line3; do
+				# 		csRosterUserId=$(echo $line3 | cut -d '|' -f4)
+				# 		majorCode=$(echo $line3 | cut -d '|' -f5)
+				# 		secondMajorCode=$(echo $line3 | cut -d '|' -f6)
+				#		
+				# 		if [ "$ecuid" == "$csRosterUserId" ]; then
+				# 			#now that I've found the person in this file, time to compare and see if this student is a major or nonmajor
+				# 			if [ "$majorCode" == "$majorCodeForComputerScience" ]; then
+				# 				isMajor=1
+				# 			elif [ "$secondMajorCode" == "$majorCodeForComputerScience" ]; then
+				# 				isMajor=1
+				# 			else
+				# 				#if they dont have the major code declared in the major or secondary major parts then their directory needs to be /home/STUDENTS/nonmajors/
+				# 				isMajor=0
+				# 			fi
+				# 		fi
+				# 	done
+				# ) < /home/faculty/mkt/unix_admin/cs_roster.txt #change this to point to /home/faculty/mkt/cs_roster.txt after done with the assignment
+
+
+				lineResult=$(grep $ecuid /home/faculty/mkt/unix_admin/cs_roster.txt)
+				if [ "$lineResult" != "" ]; then
+					echo "nice ->$lineResult"
+					#if here then this is the line I need to look at
+					majorCode=$(echo $lineResult | cut -d '|' -f5)
+					secondMajorCode=$(echo $lineResult | cut -d '|' -f6)
+
+					#time to compare and see if this student is a major or nonmajor
+			 		if [ "$majorCode" == "$majorCodeForComputerScience" ]; then
+						isMajor=1
+					elif [ "$secondMajorCode" == "$majorCodeForComputerScience" ]; then
+						isMajor=1
+					else
+						#if they dont have the major code declared in the major or secondary major parts then their directory needs to be /home/STUDENTS/nonmajors/
+						isMajor=0
+					fi
+				fi
 
 
 				#awesome, I have flags now to tell me if the student is a major or not
