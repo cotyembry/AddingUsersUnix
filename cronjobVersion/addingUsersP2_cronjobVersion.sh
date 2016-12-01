@@ -110,7 +110,9 @@ mkdir -p /home/faculty/mkt/unix_admin/EMBRY_JOHN #make the directory if it doesn
 		# ) < /etc/passwd #passwd.txt
 
 		lineResult=$(grep $ecuid /etc/passwd)
-		if [ "$myLine" == "" ]; then
+		if [ "$myLine" != "" ]; then
+			#i.e. the users id was not found in /etc/passwd
+			#meaning the user is not in the system
 			doNotCreateUser=1
 		fi
 
